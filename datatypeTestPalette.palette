@@ -29,7 +29,7 @@
             "description": "Takes an input and archives it in an NGAS server.",
             "repositoryUrl": "https://github.com/ICRAR/daliuge",
             "commitHash": "54f1aac",
-            "paletteDownloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE_test_repo/master/daliuge/daliuge-master.palette",
+            "paletteDownloadUrl": "https://raw.githubusercontent.com/M-Wicenec/EagleTest/08462959f076457e02668409dcb09fda640dfdd9/datatypeTestPalette.palette?token=AKTUHNRUQXUCGORVECWCRT3EX5OAG",
             "dataHash": "c8ad3a245ab40c4f752f748519742274bb0011e8c073ffc78c7132675234fbb7",
             "fields": [
                 {
@@ -257,7 +257,7 @@
                     "usage": "InputPort"
                 },
                 {
-                    "name": "datatype",
+                    "name": "dataType",
                     "value": "2",
                     "defaultValue": "1",
                     "description": "",
