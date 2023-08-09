@@ -30,17 +30,17 @@
             "key": -1,
             "name": "graphTester",
             "description": "Takes an input and archives it in an NGAS server.",
-            "x": 1040,
-            "y": 445,
+            "x": 1034,
+            "y": 368,
             "width": 200,
             "height": 72,
-            "collapsed": false,
+            "collapsed": true,
             "flipPorts": false,
             "subject": null,
             "expanded": true,
             "repositoryUrl": "https://github.com/ICRAR/daliuge",
             "commitHash": "54f1aac",
-            "paletteDownloadUrl": "https://raw.githubusercontent.com/M-Wicenec/EagleTest/c6617efc512b13fc7208b53d735f2fb4f2582cce/datatypeTestPalette.palette?token=AKTUHNVVUBZ42JR5QR3HUG3E2L35Y",
+            "paletteDownloadUrl": "https://raw.githubusercontent.com/M-Wicenec/EagleTest/01bd095c4c4ee3311e6e3fe203ee7ea74230fb74/datatypeTestPalette.palette?token=AKTUHNTHQPK2PPD6CBEQE6DE2L4LK",
             "dataHash": "c8ad3a245ab40c4f752f748519742274bb0011e8c073ffc78c7132675234fbb7",
             "fields": [
                 {
@@ -263,7 +263,7 @@
                     "options": [],
                     "positional": false,
                     "keyAttribute": false,
-                    "id": "b01f6cc0-675e-4aa9-a369-44e9f767351d",
+                    "id": "501b5c67-5967-423f-a2a7-27108f797d9c",
                     "parameterType": "ApplicationArgument",
                     "usage": "InputPort"
                 },
@@ -297,7 +297,7 @@
                     "options": [],
                     "positional": false,
                     "keyAttribute": false,
-                    "id": "f7a82b62-d1a8-4632-9423-5aae28f7bffd",
+                    "id": "794d3052-4fe4-48c0-9375-77bb92993b6d",
                     "parameterType": "ApplicationArgument",
                     "usage": "OutputPort"
                 },
@@ -312,7 +312,7 @@
                     "options": [],
                     "positional": false,
                     "keyAttribute": false,
-                    "id": "e4388108-16ea-477b-8856-b083b432dd0f",
+                    "id": "4eaccfa4-4c16-4b0a-82f9-7a3e3eb3bb86",
                     "parameterType": "ApplicationArgument",
                     "usage": "InputPort"
                 },
@@ -327,7 +327,7 @@
                     "options": [],
                     "positional": false,
                     "keyAttribute": false,
-                    "id": "b6446067-dbbd-4152-b653-99e18b61d129",
+                    "id": "213b8234-e0b4-4742-a65b-b1ba06e72b25",
                     "parameterType": "ApplicationArgument",
                     "usage": "OutputPort"
                 }
@@ -352,17 +352,17 @@
             "key": -2,
             "name": "NgasArchivingApp",
             "description": "Takes an input and archives it in an NGAS server.",
-            "x": 747,
-            "y": 279,
+            "x": 720,
+            "y": 237,
             "width": 200,
             "height": 72,
-            "collapsed": false,
+            "collapsed": true,
             "flipPorts": false,
             "subject": null,
             "expanded": true,
             "repositoryUrl": "https://github.com/ICRAR/daliuge",
             "commitHash": "54f1aac",
-            "paletteDownloadUrl": "https://raw.githubusercontent.com/M-Wicenec/EagleTest/c6617efc512b13fc7208b53d735f2fb4f2582cce/datatypeTestPalette.palette?token=AKTUHNVVUBZ42JR5QR3HUG3E2L35Y",
+            "paletteDownloadUrl": "https://raw.githubusercontent.com/M-Wicenec/EagleTest/01bd095c4c4ee3311e6e3fe203ee7ea74230fb74/datatypeTestPalette.palette?token=AKTUHNTHQPK2PPD6CBEQE6DE2L4LK",
             "dataHash": "c8ad3a245ab40c4f752f748519742274bb0011e8c073ffc78c7132675234fbb7",
             "fields": [
                 {
@@ -585,7 +585,7 @@
                     "options": [],
                     "positional": false,
                     "keyAttribute": false,
-                    "id": "56537123-ea08-4c4c-bc16-49c0b49b5f3e",
+                    "id": "3f249820-8a8d-40a8-b476-6b8633661597",
                     "parameterType": "ApplicationArgument",
                     "usage": "InputPort"
                 },
