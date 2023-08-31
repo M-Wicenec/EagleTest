@@ -1057,7 +1057,7 @@
             "width": 200,
             "height": 72,
             "collapsed": false,
-            "subject": null,
+            "subject": -4,
             "expanded": true,
             "repositoryUrl": "https://github.com/ICRAR/daliuge",
             "commitHash": "44edda3",
