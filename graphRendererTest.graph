@@ -18,7 +18,7 @@
         "lastModifiedName": "",
         "lastModifiedEmail": "",
         "lastModifiedDatetime": 0,
-        "numLGNodes": 8
+        "numLGNodes": 7
     },
     "nodeDataArray": [
         {
@@ -911,84 +911,6 @@
                     "positional": false,
                     "keyAttribute": false,
                     "id": "5b6a68ad-29a1-452d-88b7-30609573c797",
-                    "parameterType": "ComponentParameter",
-                    "usage": "NoPort"
-                }
-            ],
-            "inputAppFields": [],
-            "outputAppFields": [],
-            "inputApplicationName": "",
-            "inputApplicationType": "None",
-            "inputApplicationKey": null,
-            "inputApplicationDescription": "",
-            "outputApplicationName": "",
-            "outputApplicationType": "None",
-            "outputApplicationKey": null,
-            "outputApplicationDescription": ""
-        },
-        {
-            "category": "GroupBy",
-            "categoryType": "Construct",
-            "isGroup": true,
-            "color": "rgb(211 165 0)",
-            "drawOrderHint": 0,
-            "key": -9,
-            "name": "GroupBy",
-            "description": "A GroupBy template drop",
-            "x": 12349,
-            "y": 3998,
-            "width": 400,
-            "height": 200,
-            "collapsed": false,
-            "subject": null,
-            "expanded": true,
-            "repositoryUrl": "https://github.com/ICRAR/daliuge",
-            "commitHash": "44edda3",
-            "paletteDownloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE_test_repo/master/daliuge/daliuge-master-template.palette",
-            "dataHash": "bbae22e5eddeb4324c2be8bea4b685a145a07b9e077264c1f3436f8fd426bd3f",
-            "fields": [
-                {
-                    "name": "num_of_inputs",
-                    "value": 2,
-                    "defaultValue": "2",
-                    "description": "Number of inputs",
-                    "readonly": false,
-                    "type": "Integer",
-                    "precious": false,
-                    "options": [],
-                    "positional": false,
-                    "keyAttribute": false,
-                    "id": "a7bcc076-cd82-4ef6-ac1c-e2b2d040581e",
-                    "parameterType": "ConstructParameter",
-                    "usage": "NoPort"
-                },
-                {
-                    "name": "gather_axis",
-                    "value": 0,
-                    "defaultValue": "0",
-                    "description": "Index of gather axis",
-                    "readonly": false,
-                    "type": "Integer",
-                    "precious": false,
-                    "options": [],
-                    "positional": false,
-                    "keyAttribute": false,
-                    "id": "b682ee81-fd0a-4a66-b804-bf050380ab1e",
-                    "parameterType": "ApplicationArgument",
-                    "usage": "NoPort"
-                },
-                {
-                    "name": "dropclass",
-                    "value": "dlg.apps.constructs.GroupByDrop",
-                    "defaultValue": "dlg.apps.constructs.GroupByDrop",
-                    "description": "Drop class",
-                    "readonly": false,
-                    "type": "String",
-                    "precious": false,
-                    "options": [],
-                    "positional": false,
-                    "keyAttribute": false,
-                    "id": "f4847dd2-aa8a-45c7-b941-71b97829c3d0",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
                 }
