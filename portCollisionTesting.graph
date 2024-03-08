@@ -160,6 +160,21 @@
                     "id": "59306a03-f3fc-4b52-b8cd-98e577e95fc0",
                     "parameterType": "ApplicationArgument",
                     "usage": "OutputPort"
+                },
+                {
+                    "name": "testingParam",
+                    "value": "",
+                    "defaultValue": "",
+                    "description": "",
+                    "readonly": false,
+                    "type": "String",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "keyAttribute": false,
+                    "id": "a6c25789-a428-4a78-85a4-5e6fad78ce52",
+                    "parameterType": "ComponentParameter",
+                    "usage": "InputPort"
                 }
             ],
             "inputAppFields": [],
@@ -530,8 +545,8 @@
             "key": -3,
             "name": "File3",
             "description": "A standard file on a filesystem mounted to the deployment machine",
-            "x": 879.5249467908296,
-            "y": 552.0246384198953,
+            "x": 951.8420308550485,
+            "y": 590.9381169877848,
             "radius": 25,
             "collapsed": false,
             "subject": null,
