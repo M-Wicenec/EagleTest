@@ -160,7 +160,7 @@
                     "keyAttribute": false,
                     "id": "28963398-3d9d-4587-82d1-57a84f32e2c3",
                     "parameterType": "ApplicationArgument",
-                    "usage": "InputOutput"
+                    "usage": "OutputPort"
                 }
             ],
             "inputAppFields": [],
@@ -297,7 +297,7 @@
                     "keyAttribute": false,
                     "id": "d55fbaab-bdce-444d-b36b-90cd17b4c86a",
                     "parameterType": "ApplicationArgument",
-                    "usage": "InputOutput"
+                    "usage": "InputPort"
                 },
                 {
                     "name": "input_parser",
