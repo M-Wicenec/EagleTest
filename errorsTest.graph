@@ -149,11 +149,11 @@
                 },
                 {
                     "name": "dummy",
-                    "value": null,
+                    "value": "",
                     "defaultValue": "",
                     "description": "Dummy port",
                     "readonly": false,
-                    "type": "Float",
+                    "type": "",
                     "precious": false,
                     "options": [],
                     "positional": false,
