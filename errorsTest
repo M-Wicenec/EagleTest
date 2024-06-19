@@ -7,8 +7,9 @@
         "repoService": "GitHub",
         "repoBranch": "main",
         "repo": "M-Wicenec/EagleTest",
-        "eagleVersion": "v6.2.8",
-        "eagleCommitHash": "80717598c275f0e9b15a46e15e79383e0434e85f",
+        "generatorVersion": "Unknown",
+        "generatorCommitHash": "Unknown",
+        "generatorName": "EAGLE",
         "schemaVersion": "OJS",
         "readonly": true,
         "repositoryUrl": "",
@@ -30,8 +31,8 @@
             "key": -1,
             "name": "File",
             "description": "A standard file on a filesystem mounted to the deployment machine",
-            "x": 1093.8378366732911,
-            "y": 836.7840919008638,
+            "x": 1054.7660708192464,
+            "y": 996.1299588559195,
             "radius": 25,
             "collapsed": false,
             "subject": null,
@@ -52,7 +53,7 @@
                     "options": [],
                     "positional": false,
                     "keyAttribute": false,
-                    "id": "f553c5d5-b049-48fe-a9b0-12efe9821ee5",
+                    "id": "b4732d63-bcd0-40e6-9f32-c2927e49899c",
                     "parameterType": "ApplicationArgument",
                     "usage": "NoPort"
                 },
@@ -67,7 +68,7 @@
                     "options": [],
                     "positional": false,
                     "keyAttribute": false,
-                    "id": "1d353c56-f848-4beb-b630-c196219c9b0f",
+                    "id": "8f10d09a-c733-4a92-8bc4-dba129e7f7ea",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
                 },
@@ -82,7 +83,7 @@
                     "options": [],
                     "positional": false,
                     "keyAttribute": false,
-                    "id": "1132b0a3-b0a8-49fb-bff4-6a74ea5b8ef3",
+                    "id": "d44123e4-3f7a-46ec-b8ba-716cee897817",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
                 },
@@ -97,7 +98,7 @@
                     "options": [],
                     "positional": false,
                     "keyAttribute": false,
-                    "id": "bb7c980c-dd49-46c4-9e03-d2d4c7b94a9b",
+                    "id": "77479863-cbe5-45be-953d-59bb30581417",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
                 },
@@ -112,7 +113,7 @@
                     "options": [],
                     "positional": false,
                     "keyAttribute": false,
-                    "id": "59f7695d-9fa7-44fb-9fed-aea1353f1151",
+                    "id": "fa4dd54f-a292-472e-8f06-2580296352a9",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
                 },
@@ -127,7 +128,7 @@
                     "options": [],
                     "positional": false,
                     "keyAttribute": false,
-                    "id": "4d05e5dd-936b-4aea-800b-ea72e34fe840",
+                    "id": "e2499259-96bd-47b4-bf19-f3ded97c6508",
                     "parameterType": "ConstraintParameter",
                     "usage": "NoPort"
                 },
@@ -142,22 +143,22 @@
                     "options": [],
                     "positional": false,
                     "keyAttribute": false,
-                    "id": "94f812dc-a013-4ec8-854d-eb4939930400",
+                    "id": "020c82d1-89cd-4914-bcea-52f81f685656",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
                 },
                 {
                     "name": "dummy",
-                    "value": null,
+                    "value": "",
                     "defaultValue": "",
                     "description": "Dummy port",
                     "readonly": false,
-                    "type": "Float",
+                    "type": "Json",
                     "precious": false,
                     "options": [],
                     "positional": false,
                     "keyAttribute": false,
-                    "id": "074eb2d6-d24b-46e6-86ec-1f59bb7010ea",
+                    "id": "c93f3317-2ccf-4353-a24e-c1bca1c5bb62",
                     "parameterType": "ApplicationArgument",
                     "usage": "InputOutput"
                 }
@@ -180,10 +181,10 @@
             "color": "#0059a5",
             "drawOrderHint": 0,
             "key": -2,
-            "name": "dummy",
+            "name": "CopyApp",
             "description": "A simple APP that copies its inputs into its outputs. All inputs are copied into all outputs in the order they were declared in the graph. If an input is a container (e.g. a directory) it copies the content recursively.",
-            "x": 1415.4783608889973,
-            "y": 818.8850995401867,
+            "x": 1274.0360209408552,
+            "y": 840.6215554054987,
             "radius": 25,
             "collapsed": false,
             "subject": null,
@@ -204,7 +205,7 @@
                     "options": [],
                     "positional": false,
                     "keyAttribute": false,
-                    "id": "e3391367-bba7-4a6c-a0b1-1dc08d7f9186",
+                    "id": "6463b2e7-2a9c-4e7f-8726-aeeefae60947",
                     "parameterType": "ApplicationArgument",
                     "usage": "NoPort"
                 },
@@ -219,7 +220,7 @@
                     "options": [],
                     "positional": false,
                     "keyAttribute": false,
-                    "id": "d0a6e5c9-e6cf-4e04-9c86-b9c82582f360",
+                    "id": "16462c29-52b1-45ee-8e98-152c328c2b53",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
                 },
@@ -234,7 +235,7 @@
                     "options": [],
                     "positional": false,
                     "keyAttribute": false,
-                    "id": "5f80539d-e589-438d-b841-247ae5f69b00",
+                    "id": "0e37ee04-046b-4e91-8f23-24ff992e87c7",
                     "parameterType": "ConstraintParameter",
                     "usage": "NoPort"
                 },
@@ -249,7 +250,7 @@
                     "options": [],
                     "positional": false,
                     "keyAttribute": false,
-                    "id": "490f1ef2-4a1e-40b3-b817-4a3123191d79",
+                    "id": "179ffc76-396b-4b73-b240-ce1892b28064",
                     "parameterType": "ConstraintParameter",
                     "usage": "NoPort"
                 },
@@ -264,7 +265,7 @@
                     "options": [],
                     "positional": false,
                     "keyAttribute": false,
-                    "id": "189791c7-c2ce-4437-82cc-8c2f5b213b49",
+                    "id": "d9483f0d-ba49-4243-b61f-e858a7944037",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
                 },
@@ -279,7 +280,7 @@
                     "options": [],
                     "positional": false,
                     "keyAttribute": false,
-                    "id": "36eb568a-272a-47f3-96b9-edaa46b2206e",
+                    "id": "a3de4ec6-1d13-4dd4-b5d7-f68b16c4770a",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
                 },
@@ -289,12 +290,12 @@
                     "defaultValue": "",
                     "description": "Dummy port",
                     "readonly": false,
-                    "type": "Integer",
+                    "type": "Float",
                     "precious": false,
                     "options": [],
                     "positional": false,
                     "keyAttribute": false,
-                    "id": "f5109485-6c0d-419f-ba7a-58e8a5904d66",
+                    "id": "6fa98250-e43f-4a7f-a668-8a9f3ff0a5a8",
                     "parameterType": "ApplicationArgument",
                     "usage": "InputOutput"
                 },
@@ -316,7 +317,7 @@
                     ],
                     "positional": false,
                     "keyAttribute": false,
-                    "id": "21a143dd-c01e-439c-a5fd-b663a6bc2183",
+                    "id": "4347afeb-fbec-4a11-850b-dd7eb2a865c9",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
                 },
@@ -338,7 +339,7 @@
                     ],
                     "positional": false,
                     "keyAttribute": false,
-                    "id": "a181c353-b79b-42b3-94ea-95eccbf89a69",
+                    "id": "c13ac73f-2d0e-44f3-92ea-9f90cb148f7c",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
                 }
@@ -358,10 +359,9 @@
     "linkDataArray": [
         {
             "from": -1,
-            "fromPort": "074eb2d6-d24b-46e6-86ec-1f59bb7010ea",
+            "fromPort": "c93f3317-2ccf-4353-a24e-c1bca1c5bb62",
             "to": -2,
-            "toPort": "f5109485-6c0d-419f-ba7a-58e8a5904d66",
-            "dataType": "Object",
+            "toPort": "6fa98250-e43f-4a7f-a668-8a9f3ff0a5a8",
             "loop_aware": "0",
             "closesLoop": false
         }
