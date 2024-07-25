@@ -235,7 +235,7 @@
             "color": "#2c2c2c",
             "drawOrderHint": 0,
             "key": -2,
-            "name": "File",
+            "name": "File1",
             "description": "A standard file on a filesystem mounted to the deployment machine",
             "x": 762,
             "y": 586.23,
@@ -427,7 +427,7 @@
             "color": "#2c2c2c",
             "drawOrderHint": 0,
             "key": -3,
-            "name": "File",
+            "name": "File2",
             "description": "A standard file on a filesystem mounted to the deployment machine",
             "x": 1032,
             "y": 599.23,
@@ -597,5 +597,14 @@
             "outputApplicationDescription": ""
         }
     ],
-    "linkDataArray": []
+    "linkDataArray": [
+        {
+            "from": -2,
+            "fromPort": "1759f7be-e29b-4bac-8a9f-f4fc12bb78a5",
+            "to": -1,
+            "toPort": "ba9137f5-f14e-4f2e-b6df-435184facbe5",
+            "loop_aware": "0",
+            "closesLoop": false
+        }
+    ]
 }
