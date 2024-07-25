@@ -597,14 +597,5 @@
             "outputApplicationDescription": ""
         }
     ],
-    "linkDataArray": [
-        {
-            "from": -2,
-            "fromPort": "1759f7be-e29b-4bac-8a9f-f4fc12bb78a5",
-            "to": -1,
-            "toPort": "ba9137f5-f14e-4f2e-b6df-435184facbe5",
-            "loop_aware": "0",
-            "closesLoop": false
-        }
-    ]
+    "linkDataArray": []
 }
