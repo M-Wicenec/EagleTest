@@ -7,8 +7,9 @@
         "repoService": "GitHub",
         "repoBranch": "main",
         "repo": "M-Wicenec/EagleTest",
-        "eagleVersion": "Unknown",
-        "eagleCommitHash": "Unknown",
+        "generatorVersion": "v6.4.2 (dev)",
+        "generatorCommitHash": "d74b563d",
+        "generatorName": "EAGLE",
         "schemaVersion": "OJS",
         "readonly": true,
         "repositoryUrl": "",
@@ -20,6 +21,26 @@
         "lastModifiedDatetime": 0,
         "numLGNodes": 13
     },
+    "graphConfigurations": {
+        "ce61dc64-bcda-4926-a193-185ed1974172": {
+            "name": "test config",
+            "isFavorite": false,
+            "description": "initial value",
+            "nodes": {
+                "713e1f83-f753-483f-8a47-489970519955": {
+                    "fields": {
+                        "20cbe86a-c1b6-4996-a5fb-b6c493fef4ab": {
+                            "value": "pretest",
+                            "comment": ""
+                        }
+                    }
+                }
+            },
+            "lastModifiedName": "",
+            "lastModifiedEmail": "",
+            "lastModifiedDatetime": 0
+        }
+    },
     "nodeDataArray": [
         {
             "category": "PythonApp",
@@ -27,7 +48,7 @@
             "isGroup": false,
             "color": "#0059a5",
             "drawOrderHint": 0,
-            "key": -1,
+            "id": "9b9da903-1ef8-4f17-bd24-338fc29be4ee",
             "name": "graphTester",
             "description": "Takes an input and archives it in an NGAS server.",
             "x": 605.5,
@@ -51,7 +72,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "7ee7c188-37de-486b-854b-5f56b2eabd00",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -73,7 +94,7 @@
                         "dataurl"
                     ],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "6d6c8d59-644a-448c-9bfe-57ccfb7cfbdc",
                     "parameterType": "ApplicationArgument",
                     "usage": "NoPort"
@@ -95,7 +116,7 @@
                         "dataurl"
                     ],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "b596decf-08be-4bb5-98b0-81a50f2b2ca3",
                     "parameterType": "ApplicationArgument",
                     "usage": "NoPort"
@@ -110,7 +131,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "b05ccd11-e3fc-4398-aa51-8acec9f8521b",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -125,7 +146,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "074c64d2-8848-4538-8902-38921994058f",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -140,7 +161,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "64375c6b-8397-4490-b44e-8fd69c5c7789",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -155,7 +176,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "22db1347-19a9-4908-9891-7a246f857dc4",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -170,7 +191,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "d3a3b49e-185f-46b5-95eb-909cd2f3be20",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -185,7 +206,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "95af620f-4563-4da5-a3b7-bd6b86e70940",
                     "parameterType": "ApplicationArgument",
                     "usage": "NoPort"
@@ -200,7 +221,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "2cca3702-3a68-407d-bee3-84185fbeb413",
                     "parameterType": "ApplicationArgument",
                     "usage": "NoPort"
@@ -215,7 +236,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "30fe27f5-f969-4517-8d30-48e336cae68a",
                     "parameterType": "ApplicationArgument",
                     "usage": "NoPort"
@@ -230,7 +251,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "1604c7f5-8481-470d-8266-f5dc7485bc4f",
                     "parameterType": "ApplicationArgument",
                     "usage": "NoPort"
@@ -245,7 +266,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "af7f89af-c80b-46a5-845d-4059943dd87f",
                     "parameterType": "ApplicationArgument",
                     "usage": "NoPort"
@@ -260,7 +281,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "501b5c67-5967-423f-a2a7-27108f797d9c",
                     "parameterType": "ApplicationArgument",
                     "usage": "InputPort"
@@ -279,7 +300,7 @@
                         "1"
                     ],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "5848c7d0-8fb6-4167-bae9-1e997fa8028b",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -294,7 +315,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "794d3052-4fe4-48c0-9375-77bb92993b6d",
                     "parameterType": "ApplicationArgument",
                     "usage": "OutputPort"
@@ -309,7 +330,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "4eaccfa4-4c16-4b0a-82f9-7a3e3eb3bb86",
                     "parameterType": "ApplicationArgument",
                     "usage": "InputPort"
@@ -324,7 +345,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "213b8234-e0b4-4742-a65b-b1ba06e72b25",
                     "parameterType": "ApplicationArgument",
                     "usage": "OutputPort"
@@ -334,11 +355,11 @@
             "outputAppFields": [],
             "inputApplicationName": "",
             "inputApplicationType": "None",
-            "inputApplicationKey": null,
+            "inputApplicationId": null,
             "inputApplicationDescription": "",
             "outputApplicationName": "",
             "outputApplicationType": "None",
-            "outputApplicationKey": null,
+            "outputApplicationId": null,
             "outputApplicationDescription": ""
         },
         {
@@ -347,7 +368,7 @@
             "isGroup": false,
             "color": "#2c2c2c",
             "drawOrderHint": 0,
-            "key": -3,
+            "id": "430dfe32-7452-430b-9941-bafb079f9aef",
             "name": "File",
             "description": "A standard file on a filesystem mounted to the deployment machine",
             "x": 417.25051001177064,
@@ -371,7 +392,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "93aec87c-bae5-48a5-87ea-594c2f65e422",
                     "parameterType": "ApplicationArgument",
                     "usage": "NoPort"
@@ -386,7 +407,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "20bb6a86-e1eb-4be0-9d31-5a1254ccd0c5",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -401,7 +422,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "179f0b29-da9e-474f-8771-e3df48b9d5dc",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -416,7 +437,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "5c94dcd1-a748-40e9-a14a-b76fccdc9dd0",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -431,7 +452,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "a6dcea94-6adc-42a5-aa37-31a68b9bd24c",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -446,7 +467,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "0631bc28-f154-41f1-b917-50fbb30c22a3",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -461,7 +482,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "59344ec9-b7f8-4951-b86b-c920cf6b761f",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -476,7 +497,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "fea12ba2-4dc5-40e6-8a05-b46f1a6040aa",
                     "parameterType": "ApplicationArgument",
                     "usage": "InputOutput"
@@ -486,11 +507,11 @@
             "outputAppFields": [],
             "inputApplicationName": "",
             "inputApplicationType": "None",
-            "inputApplicationKey": null,
+            "inputApplicationId": null,
             "inputApplicationDescription": "",
             "outputApplicationName": "",
             "outputApplicationType": "None",
-            "outputApplicationKey": null,
+            "outputApplicationId": null,
             "outputApplicationDescription": ""
         },
         {
@@ -499,7 +520,7 @@
             "isGroup": false,
             "color": "rgb(46 161 55)",
             "drawOrderHint": 0,
-            "key": -2,
+            "id": "1e492417-c061-4226-a7a9-a07791def3b7",
             "name": "Branch",
             "description": "A conditional branch to control flow",
             "x": 543,
@@ -523,7 +544,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "b0010c13-ffcd-40f8-b899-6968d1d563b9",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -545,7 +566,7 @@
                         "dataurl"
                     ],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "2cf1e661-c2b6-4a9b-9292-fc90acfeec53",
                     "parameterType": "ApplicationArgument",
                     "usage": "NoPort"
@@ -567,7 +588,7 @@
                         "dataurl"
                     ],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "fa446db9-eab9-44a4-b0b7-5cea1af7a91d",
                     "parameterType": "ApplicationArgument",
                     "usage": "NoPort"
@@ -582,7 +603,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "0be0d6bf-db35-41ac-abb9-68501eece3b6",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -597,7 +618,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "c94e8c6f-cc1f-4d94-addf-2a32c5501cec",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -612,7 +633,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "98841230-c18d-4df9-8b88-da3afd58767d",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -627,7 +648,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "fa89db8e-4305-4012-a097-7e5aeea4fadf",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -642,7 +663,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "c329299b-3247-4c56-8837-cb7e792e3251",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -657,7 +678,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "f3c4bd50-5c3f-4f8e-a8e2-6aa821d27dc7",
                     "parameterType": "ApplicationArgument",
                     "usage": "InputPort"
@@ -672,7 +693,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "18873665-6421-49e9-a875-8937719ee398",
                     "parameterType": "ApplicationArgument",
                     "usage": "OutputPort"
@@ -687,7 +708,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "539c1d45-3e36-4e82-9c1b-135ebaba5ade",
                     "parameterType": "ApplicationArgument",
                     "usage": "OutputPort"
@@ -697,11 +718,11 @@
             "outputAppFields": [],
             "inputApplicationName": "",
             "inputApplicationType": "None",
-            "inputApplicationKey": null,
+            "inputApplicationId": null,
             "inputApplicationDescription": "",
             "outputApplicationName": "",
             "outputApplicationType": "None",
-            "outputApplicationKey": null,
+            "outputApplicationId": null,
             "outputApplicationDescription": ""
         },
         {
@@ -710,7 +731,7 @@
             "isGroup": false,
             "color": "#2c2c2c",
             "drawOrderHint": 0,
-            "key": -6,
+            "id": "f534817c-721a-4a4a-bd0f-5abf42b7f0e1",
             "name": "Memorys",
             "description": "In-memory storage of intermediate data products",
             "x": 798.8667472823134,
@@ -734,7 +755,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "e284119a-897f-4879-bb41-b52a6ce506d5",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -749,7 +770,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "b6bd940e-1805-4825-ad48-beee88c57b72",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -764,7 +785,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "7d34b8b5-f2ac-4b36-bad6-bcd78e3a1208",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -779,7 +800,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "19ef173c-e0d2-4c3e-b41b-24cdfa71391b",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -794,7 +815,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "fb67ae7c-7607-4ab2-be09-53a6822e163a",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -809,7 +830,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "4bbefc3f-b553-48ab-9f3d-13f4341ac121",
                     "parameterType": "ApplicationArgument",
                     "usage": "InputOutput"
@@ -824,7 +845,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "bdd292b9-adf9-47f1-9270-eaf1478ee63e",
                     "parameterType": "ApplicationArgument",
                     "usage": "InputOutput"
@@ -834,11 +855,11 @@
             "outputAppFields": [],
             "inputApplicationName": "",
             "inputApplicationType": "None",
-            "inputApplicationKey": null,
+            "inputApplicationId": null,
             "inputApplicationDescription": "",
             "outputApplicationName": "",
             "outputApplicationType": "None",
-            "outputApplicationKey": null,
+            "outputApplicationId": null,
             "outputApplicationDescription": ""
         },
         {
@@ -847,14 +868,14 @@
             "isGroup": false,
             "color": "rgb(157 43 96)",
             "drawOrderHint": 0,
-            "key": -7,
+            "id": "0e11f99b-ccb4-48ee-a10c-9d15282c2966",
             "name": "Comment",
             "description": "A comment template drop",
             "x": 583.5,
             "y": 462.5,
             "radius": 25,
             "collapsed": false,
-            "subject": -6,
+            "subject": "f534817c-721a-4a4a-bd0f-5abf42b7f0e1",
             "expanded": true,
             "repositoryUrl": "https://github.com/ICRAR/daliuge",
             "commitHash": "44edda3",
@@ -871,7 +892,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "4cb747d3-6556-476c-8950-b4935108ab83",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -881,20 +902,20 @@
             "outputAppFields": [],
             "inputApplicationName": "",
             "inputApplicationType": "None",
-            "inputApplicationKey": null,
+            "inputApplicationId": null,
             "inputApplicationDescription": "",
             "outputApplicationName": "",
             "outputApplicationType": "None",
-            "outputApplicationKey": null,
+            "outputApplicationId": null,
             "outputApplicationDescription": ""
         },
         {
             "category": "Description",
             "categoryType": "Other",
             "isGroup": false,
-            "color": "rgb(157 43 96)",
+            "color": "#FF66CC",
             "drawOrderHint": 0,
-            "key": -8,
+            "id": "39f1137a-724a-4e8e-a56a-92f0bcb5baba",
             "name": "Description",
             "description": "A description template drop",
             "x": 784.5,
@@ -918,7 +939,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "5b6a68ad-29a1-452d-88b7-30609573c797",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -928,11 +949,11 @@
             "outputAppFields": [],
             "inputApplicationName": "",
             "inputApplicationType": "None",
-            "inputApplicationKey": null,
+            "inputApplicationId": null,
             "inputApplicationDescription": "",
             "outputApplicationName": "",
             "outputApplicationType": "None",
-            "outputApplicationKey": null,
+            "outputApplicationId": null,
             "outputApplicationDescription": ""
         },
         {
@@ -941,7 +962,7 @@
             "isGroup": true,
             "color": "rgb(227 189 100)",
             "drawOrderHint": 0,
-            "key": -10,
+            "id": "d526d9bf-5f25-4075-b082-eb480e6792bf",
             "name": "GroupBy",
             "description": "A GroupBy template drop",
             "x": 1191.6501106881794,
@@ -965,7 +986,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "a7bcc076-cd82-4ef6-ac1c-e2b2d040581e",
                     "parameterType": "ConstructParameter",
                     "usage": "NoPort"
@@ -980,7 +1001,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "b682ee81-fd0a-4a66-b804-bf050380ab1e",
                     "parameterType": "ApplicationArgument",
                     "usage": "NoPort"
@@ -995,7 +1016,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "f4847dd2-aa8a-45c7-b941-71b97829c3d0",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -1012,7 +1033,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "72360dcb-6e91-4388-9b22-b8b391530b15",
                     "parameterType": "ConstructParameter",
                     "usage": "NoPort"
@@ -1027,7 +1048,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "d04242b5-f890-49dd-a282-ac19ce3e3f5d",
                     "parameterType": "ApplicationArgument",
                     "usage": "NoPort"
@@ -1042,7 +1063,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "d55860a1-dd1e-4844-8867-3836f19f9484",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -1057,7 +1078,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "252f1ef3-47fc-4751-a77a-796f7eb4fa80",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -1079,7 +1100,7 @@
                         "dataurl"
                     ],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "fd1bdf5a-d04b-4240-9eef-7091979d5e96",
                     "parameterType": "ApplicationArgument",
                     "usage": "NoPort"
@@ -1101,7 +1122,7 @@
                         "dataurl"
                     ],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "49ddc047-a06f-495a-9c72-e93f74e4b6f7",
                     "parameterType": "ApplicationArgument",
                     "usage": "NoPort"
@@ -1116,7 +1137,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "66a2d3b5-16a2-473b-8920-6023ac0d880b",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -1131,7 +1152,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "5185639c-b545-4495-a353-265e5f61e42b",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -1146,7 +1167,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "4f9771d3-934d-4440-ae02-ae0bae546f84",
                     "parameterType": "ApplicationArgument",
                     "usage": "InputPort"
@@ -1161,7 +1182,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "4e1f1074-9554-4c16-a714-9f6c31a3f155",
                     "parameterType": "ApplicationArgument",
                     "usage": "OutputPort"
@@ -1178,7 +1199,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "46081b69-09d9-4e79-9f7f-63fd40f52ad7",
                     "parameterType": "ConstructParameter",
                     "usage": "NoPort"
@@ -1202,7 +1223,7 @@
                         "minimum"
                     ],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "8ae7117e-69f2-4686-9de1-4250471a015d",
                     "parameterType": "ApplicationArgument",
                     "usage": "NoPort"
@@ -1217,7 +1238,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "a95b9ab8-17b2-47cf-8c36-4aee00e85cbb",
                     "parameterType": "ApplicationArgument",
                     "usage": "NoPort"
@@ -1232,7 +1253,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "ba4f3aac-2a9a-4699-8d97-4ddcf25907cb",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -1254,7 +1275,7 @@
                         "dataurl"
                     ],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "7b37a49c-de1c-458f-ab67-05b11de4640d",
                     "parameterType": "ApplicationArgument",
                     "usage": "NoPort"
@@ -1276,7 +1297,7 @@
                         "dataurl"
                     ],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "57c59b95-20c5-482f-8e3b-f00a39f61475",
                     "parameterType": "ApplicationArgument",
                     "usage": "NoPort"
@@ -1291,7 +1312,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "86153dcd-6584-4054-a673-4c43dc01cd8f",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -1306,7 +1327,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "80b40615-730a-4a3c-befa-50298ce847d2",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -1321,7 +1342,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "30d2e3ee-7f79-4663-96ec-2d3dadb24e03",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -1336,7 +1357,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "874499eb-6774-4f6a-b0b0-eecce0a1fcd4",
                     "parameterType": "ApplicationArgument",
                     "usage": "InputPort"
@@ -1351,7 +1372,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "ca4e391b-bd41-4750-9f2b-50c87d9f63a3",
                     "parameterType": "ApplicationArgument",
                     "usage": "OutputPort"
@@ -1359,11 +1380,11 @@
             ],
             "inputApplicationName": "GenericNpyScatterApp",
             "inputApplicationType": "PythonApp",
-            "inputApplicationKey": -13,
+            "inputApplicationId": "463e53a5-e53b-4abe-91ef-21c9b2e16a6d",
             "inputApplicationDescription": "An APP that splits about any axis on any npy format data drop into as many part./run s as the app has outputs, provided that the initially converted numpy array has enough elements. The return will be a numpy array of arrays, where the first axis is of length len(outputs). The modulo remainder of the length of the original array and the number of outputs will be distributed across the first len(outputs)-1 elements of the resulting array.",
             "outputApplicationName": "GenericNpyGatherApp",
             "outputApplicationType": "PythonApp",
-            "outputApplicationKey": -12,
+            "outputApplicationId": "8fe0d2fe-52e3-4728-aed4-069abf50efed",
             "outputApplicationDescription": "A BarrierAppDrop that combines one or more inputs using cumulative operations."
         },
         {
@@ -1372,7 +1393,7 @@
             "isGroup": false,
             "color": "#2c2c2c",
             "drawOrderHint": 0,
-            "key": -4,
+            "id": "713e1f83-f753-483f-8a47-489970519955",
             "name": "SharedMemory",
             "description": "Data stored in shared memory",
             "x": 1635.2852999729273,
@@ -1396,7 +1417,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "20cbe86a-c1b6-4996-a5fb-b6c493fef4ab",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -1411,7 +1432,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "f58b71c9-d89d-40b9-8d40-9910f653bd38",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -1426,7 +1447,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "9c73d317-57fa-45a0-9664-a0356aeedfd8",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -1441,7 +1462,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "4f03acb8-b793-4a23-b8c4-2cc3b5161819",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -1456,7 +1477,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "2f18c6b8-8273-4ae5-b92c-fa35ec514e7a",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -1471,7 +1492,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "cc1eb26e-c57f-47d2-9987-2ad83970e83c",
                     "parameterType": "ApplicationArgument",
                     "usage": "InputOutput"
@@ -1481,11 +1502,11 @@
             "outputAppFields": [],
             "inputApplicationName": "",
             "inputApplicationType": "None",
-            "inputApplicationKey": null,
+            "inputApplicationId": null,
             "inputApplicationDescription": "",
             "outputApplicationName": "",
             "outputApplicationType": "None",
-            "outputApplicationKey": null,
+            "outputApplicationId": null,
             "outputApplicationDescription": ""
         },
         {
@@ -1494,7 +1515,7 @@
             "isGroup": false,
             "color": "#2c2c2c",
             "drawOrderHint": 0,
-            "key": -5,
+            "id": "ee8f6ea8-d0ec-40f8-8d5b-914b428e6c52",
             "name": "Memory",
             "description": "In-memory storage of intermediate data products",
             "x": 999.5576820780716,
@@ -1507,7 +1528,7 @@
             "commitHash": "44edda3",
             "paletteDownloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE_test_repo/master/daliuge/daliuge-master.palette",
             "dataHash": "99562ee043ee082bb2633032ff1c7970a2ea33053d30d6fd46d4a596c5deab69",
-            "group": -10,
+            "parentId": "d526d9bf-5f25-4075-b082-eb480e6792bf",
             "fields": [
                 {
                     "name": "dropclass",
@@ -1519,7 +1540,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "56f07846-635f-4fed-bb5c-cd5a1afaf608",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -1534,7 +1555,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "935d862b-b4be-4bf6-ad7b-9d3806ea477f",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -1549,7 +1570,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "4950e92f-484f-4fbe-84ab-03a761dcf635",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -1564,7 +1585,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "d1f827a3-9a2c-4614-8f8a-631e23996992",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -1579,7 +1600,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "3e378b53-95bf-495f-a7d2-40da046df37f",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -1594,7 +1615,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "193e8e90-9141-4249-a5d9-c2dedd730993",
                     "parameterType": "ApplicationArgument",
                     "usage": "InputPort"
@@ -1609,7 +1630,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "78526ebb-86dc-44a8-b59a-95471c2b890d",
                     "parameterType": "ComponentParameter",
                     "usage": "OutputPort"
@@ -1619,11 +1640,11 @@
             "outputAppFields": [],
             "inputApplicationName": "",
             "inputApplicationType": "None",
-            "inputApplicationKey": null,
+            "inputApplicationId": null,
             "inputApplicationDescription": "",
             "outputApplicationName": "",
             "outputApplicationType": "None",
-            "outputApplicationKey": null,
+            "outputApplicationId": null,
             "outputApplicationDescription": ""
         },
         {
@@ -1632,7 +1653,7 @@
             "isGroup": false,
             "color": "#0059a5",
             "drawOrderHint": 0,
-            "key": -9,
+            "id": "763f8c75-8838-49c4-a5c9-9c3785c1e4cd",
             "name": "PythonApp",
             "description": "A placeholder APP to aid construction of new applications. This is mainly useful (and used) when starting a new workflow from scratch.",
             "x": 1173.8538963831277,
@@ -1645,7 +1666,7 @@
             "commitHash": "44edda3",
             "paletteDownloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE_test_repo/master/daliuge/daliuge-master-template.palette",
             "dataHash": "c83ef987b15b86c59502c8e631d404b3a9c0d7360b79be46f15c65affa9582e9",
-            "group": -10,
+            "parentId": "d526d9bf-5f25-4075-b082-eb480e6792bf",
             "fields": [
                 {
                     "name": "dropclass",
@@ -1657,7 +1678,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "113a2d6a-d111-47a4-b4d6-6cc8529d3d56",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -1672,7 +1693,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "2f705f53-c4e5-41a1-80ef-c8164b17a8a2",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -1687,7 +1708,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "0d8f794b-526e-45c4-9061-a5624b5f23bb",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -1702,7 +1723,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "7941b352-6684-4edf-a2a0-0e262e88c739",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -1717,7 +1738,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "982a7333-e072-42c9-8f27-1b7762b80efd",
                     "parameterType": "ComponentParameter",
                     "usage": "InputPort"
@@ -1732,7 +1753,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "37db954b-487b-41d0-a057-c51456d5a461",
                     "parameterType": "ComponentParameter",
                     "usage": "OutputPort"
@@ -1742,11 +1763,11 @@
             "outputAppFields": [],
             "inputApplicationName": "",
             "inputApplicationType": "None",
-            "inputApplicationKey": null,
+            "inputApplicationId": null,
             "inputApplicationDescription": "",
             "outputApplicationName": "",
             "outputApplicationType": "None",
-            "outputApplicationKey": null,
+            "outputApplicationId": null,
             "outputApplicationDescription": ""
         },
         {
@@ -1755,7 +1776,7 @@
             "isGroup": false,
             "color": "#2c2c2c",
             "drawOrderHint": 0,
-            "key": -11,
+            "id": "35d69a9e-9e6b-498b-81fa-ae091a4963de",
             "name": "Memory2",
             "description": "In-memory storage of intermediate data products",
             "x": 1336.1779499593895,
@@ -1768,7 +1789,7 @@
             "commitHash": "44edda3",
             "paletteDownloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE_test_repo/master/daliuge/daliuge-master.palette",
             "dataHash": "99562ee043ee082bb2633032ff1c7970a2ea33053d30d6fd46d4a596c5deab69",
-            "group": -10,
+            "parentId": "d526d9bf-5f25-4075-b082-eb480e6792bf",
             "fields": [
                 {
                     "name": "dropclass",
@@ -1780,7 +1801,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "56f07846-635f-4fed-bb5c-cd5a1afaf608",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -1795,7 +1816,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "935d862b-b4be-4bf6-ad7b-9d3806ea477f",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -1810,7 +1831,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "4950e92f-484f-4fbe-84ab-03a761dcf635",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -1825,7 +1846,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "d1f827a3-9a2c-4614-8f8a-631e23996992",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -1840,7 +1861,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "3e378b53-95bf-495f-a7d2-40da046df37f",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -1855,7 +1876,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "7e189b5f-dbf7-47dd-b62b-12625b89591a",
                     "parameterType": "ApplicationArgument",
                     "usage": "InputPort"
@@ -1870,7 +1891,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "80be03b2-a5b0-4874-8cfd-917fb0736d48",
                     "parameterType": "ComponentParameter",
                     "usage": "OutputPort"
@@ -1880,11 +1901,11 @@
             "outputAppFields": [],
             "inputApplicationName": "",
             "inputApplicationType": "None",
-            "inputApplicationKey": null,
+            "inputApplicationId": null,
             "inputApplicationDescription": "",
             "outputApplicationName": "",
             "outputApplicationType": "None",
-            "outputApplicationKey": null,
+            "outputApplicationId": null,
             "outputApplicationDescription": ""
         },
         {
@@ -1893,7 +1914,7 @@
             "isGroup": false,
             "color": "#2c2c2c",
             "drawOrderHint": 0,
-            "key": -14,
+            "id": "4099348a-5535-4bb8-bce9-9cc61269c9b7",
             "name": "File",
             "description": "A standard file on a filesystem mounted to the deployment machine",
             "x": 763.4587968038404,
@@ -1917,7 +1938,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "b58ebc81-cd62-4d07-aa48-680880cababc",
                     "parameterType": "ApplicationArgument",
                     "usage": "NoPort"
@@ -1932,7 +1953,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "bd3ea5bb-2db1-4b27-b875-56fa37fa8066",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -1947,7 +1968,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "45698f17-63e2-4eba-9500-16de76fdd150",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -1962,7 +1983,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "f86053c7-648a-4b5c-a7c8-9514999b9f8a",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -1977,7 +1998,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "cad2dfa4-4915-4fe2-b49c-2a7f8b05cf4d",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -1992,7 +2013,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "55df6aac-ea1d-4e39-868a-aa160ec4dcad",
                     "parameterType": "ConstraintParameter",
                     "usage": "NoPort"
@@ -2007,7 +2028,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "5b423a6a-e7fd-48f7-8e5d-330108e19a53",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -2022,7 +2043,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "c917e769-43e0-495d-918d-4f364fc22dfc",
                     "parameterType": "ApplicationArgument",
                     "usage": "InputOutput"
@@ -2037,7 +2058,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "6b652eee-6ba6-461f-90ef-494785e28902",
                     "parameterType": "ComponentParameter",
                     "usage": "OutputPort"
@@ -2047,11 +2068,11 @@
             "outputAppFields": [],
             "inputApplicationName": "",
             "inputApplicationType": "None",
-            "inputApplicationKey": null,
+            "inputApplicationId": null,
             "inputApplicationDescription": "",
             "outputApplicationName": "",
             "outputApplicationType": "None",
-            "outputApplicationKey": null,
+            "outputApplicationId": null,
             "outputApplicationDescription": ""
         },
         {
@@ -2060,7 +2081,7 @@
             "isGroup": false,
             "color": "#0059a5",
             "drawOrderHint": 0,
-            "key": -15,
+            "id": "50822253-22aa-469b-bf5e-ba8bb638c205",
             "name": "PythonApp",
             "description": "A placeholder APP to aid construction of new applications. This is mainly useful (and used) when starting a new workflow from scratch.",
             "x": 583.8068139616565,
@@ -2084,7 +2105,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "1580e4eb-3605-4196-9fbf-e247dd0f2bdb",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -2099,7 +2120,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "f777e513-583b-4594-8d09-a6dce2421a92",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -2114,7 +2135,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "67b600fc-696f-4267-a1ed-dc6db51e13f2",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -2129,7 +2150,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "5533d112-26e7-446f-b4c3-f23fb8785d32",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -2144,7 +2165,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "ed6adb5a-a1a1-4a94-8d1c-3b7c41a79063",
                     "parameterType": "ComponentParameter",
                     "usage": "InputPort"
@@ -2159,7 +2180,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "d4e80bb1-d83b-4804-8fa6-1671b1aa2ca6",
                     "parameterType": "ComponentParameter",
                     "usage": "OutputPort"
@@ -2169,111 +2190,100 @@
             "outputAppFields": [],
             "inputApplicationName": "",
             "inputApplicationType": "None",
-            "inputApplicationKey": null,
+            "inputApplicationId": null,
             "inputApplicationDescription": "",
             "outputApplicationName": "",
             "outputApplicationType": "None",
-            "outputApplicationKey": null,
+            "outputApplicationId": null,
             "outputApplicationDescription": ""
         }
     ],
     "linkDataArray": [
         {
-            "from": -3,
+            "from": "430dfe32-7452-430b-9941-bafb079f9aef",
             "fromPort": "fea12ba2-4dc5-40e6-8a05-b46f1a6040aa",
-            "to": -1,
+            "to": "9b9da903-1ef8-4f17-bd24-338fc29be4ee",
             "toPort": "501b5c67-5967-423f-a2a7-27108f797d9c",
-            "dataType": "Object",
             "loop_aware": "0",
             "closesLoop": false
         },
         {
-            "from": -2,
+            "from": "1e492417-c061-4226-a7a9-a07791def3b7",
             "fromPort": "18873665-6421-49e9-a875-8937719ee398",
-            "to": -1,
+            "to": "9b9da903-1ef8-4f17-bd24-338fc29be4ee",
             "toPort": "501b5c67-5967-423f-a2a7-27108f797d9c",
-            "dataType": "Object",
             "loop_aware": "0",
             "closesLoop": false
         },
         {
-            "from": -1,
+            "from": "9b9da903-1ef8-4f17-bd24-338fc29be4ee",
             "fromPort": "794d3052-4fe4-48c0-9375-77bb92993b6d",
-            "to": -6,
+            "to": "f534817c-721a-4a4a-bd0f-5abf42b7f0e1",
             "toPort": "4bbefc3f-b553-48ab-9f3d-13f4341ac121",
-            "dataType": "Object.File",
             "loop_aware": "0",
             "closesLoop": false
         },
         {
-            "from": -6,
+            "from": "f534817c-721a-4a4a-bd0f-5abf42b7f0e1",
             "fromPort": "4bbefc3f-b553-48ab-9f3d-13f4341ac121",
-            "to": -10,
+            "to": "d526d9bf-5f25-4075-b082-eb480e6792bf",
             "toPort": "4f9771d3-934d-4440-ae02-ae0bae546f84",
-            "dataType": "Object",
             "loop_aware": "0",
             "closesLoop": false
         },
         {
-            "from": -10,
+            "from": "d526d9bf-5f25-4075-b082-eb480e6792bf",
             "fromPort": "ca4e391b-bd41-4750-9f2b-50c87d9f63a3",
-            "to": -4,
+            "to": "713e1f83-f753-483f-8a47-489970519955",
             "toPort": "cc1eb26e-c57f-47d2-9987-2ad83970e83c",
-            "dataType": "Object.Array",
             "loop_aware": "0",
             "closesLoop": false
         },
         {
-            "from": -10,
+            "from": "d526d9bf-5f25-4075-b082-eb480e6792bf",
             "fromPort": "4e1f1074-9554-4c16-a714-9f6c31a3f155",
-            "to": -5,
+            "to": "ee8f6ea8-d0ec-40f8-8d5b-914b428e6c52",
             "toPort": "193e8e90-9141-4249-a5d9-c2dedd730993",
-            "dataType": "Object.Array",
             "loop_aware": "0",
             "closesLoop": false
         },
         {
-            "from": -5,
+            "from": "ee8f6ea8-d0ec-40f8-8d5b-914b428e6c52",
             "fromPort": "78526ebb-86dc-44a8-b59a-95471c2b890d",
-            "to": -9,
+            "to": "763f8c75-8838-49c4-a5c9-9c3785c1e4cd",
             "toPort": "982a7333-e072-42c9-8f27-1b7762b80efd",
-            "dataType": "Object",
             "loop_aware": "0",
             "closesLoop": false
         },
         {
-            "from": -9,
+            "from": "763f8c75-8838-49c4-a5c9-9c3785c1e4cd",
             "fromPort": "37db954b-487b-41d0-a057-c51456d5a461",
-            "to": -11,
+            "to": "35d69a9e-9e6b-498b-81fa-ae091a4963de",
             "toPort": "7e189b5f-dbf7-47dd-b62b-12625b89591a",
-            "dataType": "Object",
             "loop_aware": "0",
             "closesLoop": false
         },
         {
-            "from": -11,
+            "from": "35d69a9e-9e6b-498b-81fa-ae091a4963de",
             "fromPort": "80be03b2-a5b0-4874-8cfd-917fb0736d48",
-            "to": -10,
+            "to": "d526d9bf-5f25-4075-b082-eb480e6792bf",
             "toPort": "874499eb-6774-4f6a-b0b0-eecce0a1fcd4",
-            "dataType": "Object",
             "loop_aware": "0",
             "closesLoop": false
         },
         {
-            "from": -1,
+            "from": "9b9da903-1ef8-4f17-bd24-338fc29be4ee",
             "fromPort": "213b8234-e0b4-4742-a65b-b1ba06e72b25",
-            "to": -14,
+            "to": "4099348a-5535-4bb8-bce9-9cc61269c9b7",
             "toPort": "c917e769-43e0-495d-918d-4f364fc22dfc",
-            "dataType": "Object.File",
             "loop_aware": "0",
             "closesLoop": false
         },
         {
-            "from": -15,
+            "from": "50822253-22aa-469b-bf5e-ba8bb638c205",
             "fromPort": "d4e80bb1-d83b-4804-8fa6-1671b1aa2ca6",
-            "to": -3,
+            "to": "430dfe32-7452-430b-9941-bafb079f9aef",
             "toPort": "fea12ba2-4dc5-40e6-8a05-b46f1a6040aa",
-            "dataType": "Object",
             "loop_aware": "0",
             "closesLoop": false
         }
