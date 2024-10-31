@@ -21,7 +21,7 @@
         "lastModifiedDatetime": 0,
         "numLGNodes": 13
     },
-    "activeGraphConfigId": "",
+    "activeGraphConfigId": "9ddac64a-da5b-4d69-ac54-869e15764296",
     "graphConfigurations": {
         "ce61dc64-bcda-4926-a193-185ed1974172": {
             "name": "test config",
@@ -1414,11 +1414,11 @@
             ],
             "inputApplicationName": "GenericNpyScatterApp",
             "inputApplicationType": "PythonApp",
-            "inputApplicationId": "c0f0ce0f-e17c-47ab-a15e-7e3b1263aeca",
+            "inputApplicationId": "8749914a-13f7-40f6-942b-721b0709479e",
             "inputApplicationDescription": "An APP that splits about any axis on any npy format data drop into as many part./run s as the app has outputs, provided that the initially converted numpy array has enough elements. The return will be a numpy array of arrays, where the first axis is of length len(outputs). The modulo remainder of the length of the original array and the number of outputs will be distributed across the first len(outputs)-1 elements of the resulting array.",
             "outputApplicationName": "GenericNpyGatherApp",
             "outputApplicationType": "PythonApp",
-            "outputApplicationId": "e9372f20-7e39-4db9-9134-2814e69fd53d",
+            "outputApplicationId": "6bda195e-ab61-4f5f-ba64-3732af82d938",
             "outputApplicationDescription": "A BarrierAppDrop that combines one or more inputs using cumulative operations."
         },
         {
