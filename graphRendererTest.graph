@@ -8,7 +8,7 @@
         "repoBranch": "main",
         "repo": "M-Wicenec/EagleTest",
         "generatorVersion": "v6.4.2 (dev)",
-        "generatorCommitHash": "d74b563d",
+        "generatorCommitHash": "d967af64",
         "generatorName": "EAGLE",
         "schemaVersion": "OJS",
         "readonly": true,
@@ -21,10 +21,27 @@
         "lastModifiedDatetime": 0,
         "numLGNodes": 13
     },
+    "activeGraphConfigId": "4190bb07-f859-44aa-88d3-24ccd812c199",
     "graphConfigurations": {
         "ce61dc64-bcda-4926-a193-185ed1974172": {
             "name": "test config",
-            "isFavorite": false,
+            "description": "initial value",
+            "nodes": {
+                "713e1f83-f753-483f-8a47-489970519955": {
+                    "fields": {
+                        "20cbe86a-c1b6-4996-a5fb-b6c493fef4ab": {
+                            "value": "postTest",
+                            "comment": ""
+                        }
+                    }
+                }
+            },
+            "lastModifiedName": "",
+            "lastModifiedEmail": "",
+            "lastModifiedDatetime": 0
+        },
+        "4190bb07-f859-44aa-88d3-24ccd812c199": {
+            "name": "test config (Copy)",
             "description": "initial value",
             "nodes": {
                 "713e1f83-f753-483f-8a47-489970519955": {
@@ -1380,11 +1397,11 @@
             ],
             "inputApplicationName": "GenericNpyScatterApp",
             "inputApplicationType": "PythonApp",
-            "inputApplicationId": "387dbc65-c794-467a-ac55-ca8f3f3f0591",
+            "inputApplicationId": "b065ad4d-1044-4137-8683-44c84fd379c2",
             "inputApplicationDescription": "An APP that splits about any axis on any npy format data drop into as many part./run s as the app has outputs, provided that the initially converted numpy array has enough elements. The return will be a numpy array of arrays, where the first axis is of length len(outputs). The modulo remainder of the length of the original array and the number of outputs will be distributed across the first len(outputs)-1 elements of the resulting array.",
             "outputApplicationName": "GenericNpyGatherApp",
             "outputApplicationType": "PythonApp",
-            "outputApplicationId": "61d0ac36-dec1-4db1-a7c9-e47858d25979",
+            "outputApplicationId": "94a38d3e-38fd-414b-a367-6c530b8ee4fa",
             "outputApplicationDescription": "A BarrierAppDrop that combines one or more inputs using cumulative operations."
         },
         {
