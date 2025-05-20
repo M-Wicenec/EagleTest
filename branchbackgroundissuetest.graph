@@ -36,6 +36,10 @@
                         "d97a92a1-491e-492e-83b9-a691178929ec": {
                             "value": 1,
                             "comment": ""
+                        },
+                        "5c95495e-ce08-4d5c-ba4f-187f91eb47b8": {
+                            "value": false,
+                            "comment": ""
                         }
                     }
                 }
@@ -55,8 +59,8 @@
             "id": "e09d42a2-8ea9-47f6-873f-d1ee7a4e7987",
             "name": "Branch",
             "description": "A branch application that copies the input to either the 'true' or the 'false' output depending on the result of the provided conditional function. The conditional function can be specified either in-line or as an external function and has to return a boolean value. The inputs of the application are passed on as arguments to the conditional function. The conditional function needs to return a boolean value, but the application will copy the input data to the true or false output, depending on the result of the conditional function.",
-            "x": 1103.3522916700404,
-            "y": 286.96441267863327,
+            "x": 1119.3522916700404,
+            "y": 302.96441267863327,
             "subject": null,
             "repositoryUrl": "https://github.com/ICRAR/daliuge",
             "commitHash": "786bff7",
