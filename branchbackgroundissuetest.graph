@@ -8,7 +8,7 @@
         "repoBranch": "main",
         "repo": "M-Wicenec/EagleTest",
         "generatorVersion": "v6.6.0 (dev)",
-        "generatorCommitHash": "81f354e2",
+        "generatorCommitHash": "15ef3dbb",
         "generatorName": "EAGLE",
         "schemaVersion": "OJS",
         "readonly": false,
@@ -21,8 +21,34 @@
         "lastModifiedDatetime": 0,
         "numLGNodes": 2
     },
-    "activeGraphConfigId": null,
-    "graphConfigurations": {},
+    "activeGraphConfigId": "a966dd9e-dacd-4a7f-9ea6-cf48593449e7",
+    "graphConfigurations": {
+        "a966dd9e-dacd-4a7f-9ea6-cf48593449e7": {
+            "name": "Default Configuration",
+            "description": "",
+            "nodes": {
+                "e09d42a2-8ea9-47f6-873f-d1ee7a4e7987": {
+                    "fields": {
+                        "d2143491-bdcf-4863-9c63-9184d8117714": {
+                            "value": "",
+                            "comment": ""
+                        },
+                        "d97a92a1-491e-492e-83b9-a691178929ec": {
+                            "value": 1,
+                            "comment": ""
+                        },
+                        "5c95495e-ce08-4d5c-ba4f-187f91eb47b8": {
+                            "value": false,
+                            "comment": ""
+                        }
+                    }
+                }
+            },
+            "lastModifiedName": "",
+            "lastModifiedEmail": "",
+            "lastModifiedDatetime": 0
+        }
+    },
     "nodeDataArray": [
         {
             "category": "File",
@@ -33,8 +59,8 @@
             "id": "8a71a0fb-705c-404d-ab0a-5704e5b51a1a",
             "name": "x",
             "description": "A standard file on a filesystem mounted to the deployment machine",
-            "x": 893,
-            "y": 327.23,
+            "x": 902,
+            "y": 336.23,
             "subject": null,
             "repositoryUrl": "https://github.com/ICRAR/daliuge",
             "commitHash": "786bff7",
@@ -212,8 +238,8 @@
             "id": "e09d42a2-8ea9-47f6-873f-d1ee7a4e7987",
             "name": "Branch",
             "description": "A branch application that copies the input to either the 'true' or the 'false' output depending on the result of the provided conditional function. The conditional function can be specified either in-line or as an external function and has to return a boolean value. The inputs of the application are passed on as arguments to the conditional function. The conditional function needs to return a boolean value, but the application will copy the input data to the true or false output, depending on the result of the conditional function.",
-            "x": 1195,
-            "y": 284.23,
+            "x": 1211,
+            "y": 300.23,
             "subject": null,
             "repositoryUrl": "https://github.com/ICRAR/daliuge",
             "commitHash": "786bff7",
