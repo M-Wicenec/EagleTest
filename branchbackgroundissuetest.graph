@@ -38,14 +38,6 @@
                             "comment": ""
                         }
                     }
-                },
-                "6fdb49d8-948f-43d0-9bb2-eca84178c2f2": {
-                    "fields": {
-                        "afd8231e-b536-4c9c-b6bd-80bf8641b605": {
-                            "value": false,
-                            "comment": ""
-                        }
-                    }
                 }
             },
             "lastModifiedName": "",
@@ -63,8 +55,8 @@
             "id": "8a71a0fb-705c-404d-ab0a-5704e5b51a1a",
             "name": "x",
             "description": "A standard file on a filesystem mounted to the deployment machine",
-            "x": 911,
-            "y": 345.23,
+            "x": 920,
+            "y": 354.23,
             "subject": null,
             "repositoryUrl": "https://github.com/ICRAR/daliuge",
             "commitHash": "786bff7",
@@ -242,8 +234,8 @@
             "id": "e09d42a2-8ea9-47f6-873f-d1ee7a4e7987",
             "name": "Branch",
             "description": "A branch application that copies the input to either the 'true' or the 'false' output depending on the result of the provided conditional function. The conditional function can be specified either in-line or as an external function and has to return a boolean value. The inputs of the application are passed on as arguments to the conditional function. The conditional function needs to return a boolean value, but the application will copy the input data to the true or false output, depending on the result of the conditional function.",
-            "x": 1227,
-            "y": 316.23,
+            "x": 1243,
+            "y": 332.23,
             "subject": null,
             "repositoryUrl": "https://github.com/ICRAR/daliuge",
             "commitHash": "786bff7",
@@ -443,8 +435,8 @@
             "id": "6fdb49d8-948f-43d0-9bb2-eca84178c2f2",
             "name": "Branch",
             "description": "A branch application that copies the input to either the 'true' or the 'false' output depending on the result of the provided conditional function. The conditional function can be specified either in-line or as an external function and has to return a boolean value. The inputs of the application are passed on as arguments to the conditional function. The conditional function needs to return a boolean value, but the application will copy the input data to the true or false output, depending on the result of the conditional function.",
-            "x": 988.5610707144817,
-            "y": 240.4501054850065,
+            "x": 1004.5610707144817,
+            "y": 256.4501054850065,
             "subject": null,
             "repositoryUrl": "https://github.com/ICRAR/daliuge",
             "commitHash": "117d50e",
