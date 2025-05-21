@@ -40,6 +40,38 @@
                         "008cdf31-70be-4567-8e6f-e473ec5f40a2": {
                             "value": "",
                             "comment": ""
+                        },
+                        "9871bf68-2b7c-44b2-a48f-c83a2e340973": {
+                            "value": 5,
+                            "comment": ""
+                        },
+                        "480a738c-b680-457f-81c0-1802abfe55f2": {
+                            "value": "simple",
+                            "comment": ""
+                        },
+                        "427d2b23-ef97-4b0c-9be5-bc85a7ee85b7": {
+                            "value": "dlg.apps.simple.Branch",
+                            "comment": ""
+                        },
+                        "09ed1d10-9c0a-4fda-be24-fd1a43c7d677": {
+                            "value": "NOTSET",
+                            "comment": ""
+                        },
+                        "9d48eb4c-891c-42d7-841f-bab8716ac58d": {
+                            "value": "",
+                            "comment": ""
+                        },
+                        "c71edfc8-d166-403d-bd6f-f19a58806b10": {
+                            "value": "",
+                            "comment": ""
+                        },
+                        "dde058c0-30f8-46ed-aefb-79e55b493854": {
+                            "value": "def condition(x): return (x > 0)",
+                            "comment": ""
+                        },
+                        "09ef1f90-b3c5-45a2-a131-329fb15ffec8": {
+                            "value": "condition",
+                            "comment": ""
                         }
                     }
                 }
@@ -59,8 +91,8 @@
             "id": "637e0183-cce6-4552-a5b7-5e76dd118b6b",
             "name": "Branch",
             "description": "A branch application that copies the input to either the 'true' or the 'false' output depending on the result of the provided conditional function. The conditional function can be specified either in-line or as an external function and has to return a boolean value. The inputs of the application are passed on as arguments to the conditional function. The conditional function needs to return a boolean value, but the application will copy the input data to the true or false output, depending on the result of the conditional function.",
-            "x": 1105.7358740631005,
-            "y": 312.7177634549929,
+            "x": 1121.7358740631005,
+            "y": 328.7177634549929,
             "subject": null,
             "repositoryUrl": "https://github.com/ICRAR/daliuge",
             "commitHash": "117d50e",
@@ -195,7 +227,7 @@
                     "usage": "NoPort"
                 },
                 {
-                    "name": "execution_time",
+                    "name": "execution_timeexecution_time",
                     "value": 5,
                     "defaultValue": "5",
                     "description": "Estimated execution time",
