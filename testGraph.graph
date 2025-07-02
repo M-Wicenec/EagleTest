@@ -7,8 +7,8 @@
         "repoService": "GitHub",
         "repoBranch": "main",
         "repo": "M-Wicenec/EagleTest",
-        "generatorVersion": "Unknown",
-        "generatorCommitHash": "Unknown",
+        "generatorVersion": "v6.7.0 (dev)",
+        "generatorCommitHash": "54278736",
         "generatorName": "EAGLE",
         "schemaVersion": "OJS",
         "readonly": true,
@@ -21,6 +21,8 @@
         "lastModifiedDatetime": 0,
         "numLGNodes": 2
     },
+    "activeGraphConfigId": null,
+    "graphConfigurations": {},
     "nodeDataArray": [
         {
             "category": "File",
@@ -28,15 +30,13 @@
             "isGroup": false,
             "color": "#2c2c2c",
             "drawOrderHint": 0,
-            "key": -1,
+            "id": "f545599c-97c6-4038-8667-4264bb7a858d",
             "name": "File",
             "description": "A standard file on a filesystem mounted to the deployment machine",
+            "comment": "",
             "x": 147.4789644012946,
             "y": 141.58576051779932,
-            "radius": 25,
-            "collapsed": false,
             "subject": null,
-            "expanded": true,
             "repositoryUrl": "https://github.com/ICRAR/daliuge",
             "commitHash": "44edda3",
             "paletteDownloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE_test_repo/master/daliuge/daliuge-master.palette",
@@ -52,7 +52,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "5aeda357-ad6c-4d8b-810e-04c6c4c63f63",
                     "parameterType": "ApplicationArgument",
                     "usage": "NoPort"
@@ -67,7 +67,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "0285f1ec-450b-479b-8f26-34b5b6a734ea",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -82,7 +82,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "0a43d037-630e-44a2-b57a-c742084b991a",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -97,7 +97,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "75cdd45b-7c2f-44b9-83ef-477b3e8d4fa3",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -112,7 +112,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "88790dbe-445e-4fea-a34f-3095a687b34c",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -127,7 +127,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "973c708b-33f6-40b1-9c45-ca713c7bc9cd",
                     "parameterType": "ConstraintParameter",
                     "usage": "NoPort"
@@ -142,7 +142,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "37af339c-b631-465e-8e49-a9503876fe2b",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -157,7 +157,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "28963398-3d9d-4587-82d1-57a84f32e2c3",
                     "parameterType": "ApplicationArgument",
                     "usage": "InputOutput"
@@ -167,12 +167,14 @@
             "outputAppFields": [],
             "inputApplicationName": "",
             "inputApplicationType": "None",
-            "inputApplicationKey": null,
+            "inputApplicationId": null,
             "inputApplicationDescription": "",
+            "inputApplicationComment": "",
             "outputApplicationName": "",
             "outputApplicationType": "None",
-            "outputApplicationKey": null,
-            "outputApplicationDescription": ""
+            "outputApplicationId": null,
+            "outputApplicationDescription": "",
+            "outputApplicationComment": ""
         },
         {
             "category": "PythonApp",
@@ -180,15 +182,13 @@
             "isGroup": false,
             "color": "#0059a5",
             "drawOrderHint": 0,
-            "key": -2,
+            "id": "c18e58f6-c328-4bb5-8ce4-d9ce412d8209",
             "name": "CopyApp",
             "description": "A simple APP that copies its inputs into its outputs. All inputs are copied into all outputs in the order they were declared in the graph. If an input is a container (e.g. a directory) it copies the content recursively.",
-            "x": 317.88349514563134,
-            "y": 67.40088996763761,
-            "radius": 25,
-            "collapsed": false,
+            "comment": "hello yes this is a comment",
+            "x": 326.59133149622295,
+            "y": 83.1838433530849,
             "subject": null,
-            "expanded": true,
             "repositoryUrl": "https://github.com/ICRAR/daliuge",
             "commitHash": "db91b75",
             "paletteDownloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE_test_repo/master/daliuge/daliuge-master.palette",
@@ -204,7 +204,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "67a8c81f-22d5-4f5b-aee0-c8466348fc59",
                     "parameterType": "ApplicationArgument",
                     "usage": "NoPort"
@@ -219,7 +219,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "09408f3f-eda7-49a1-8bbe-22b2590df00e",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -234,7 +234,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "aa04ce78-a557-42bb-a1f9-050df5f6b48e",
                     "parameterType": "ConstraintParameter",
                     "usage": "NoPort"
@@ -249,7 +249,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "a5bcbb07-ed84-4a35-816c-779d9423a4c0",
                     "parameterType": "ConstraintParameter",
                     "usage": "NoPort"
@@ -264,7 +264,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "1350e3e2-b350-440f-b3ed-37b645f8b272",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -279,7 +279,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "bf0ea5b0-8b9c-47ba-abd0-c6e618e270d0",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -294,7 +294,7 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "d55fbaab-bdce-444d-b36b-90cd17b4c86a",
                     "parameterType": "ApplicationArgument",
                     "usage": "InputOutput"
@@ -316,7 +316,7 @@
                         "dataurl"
                     ],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "762f54a8-5468-45d3-93d2-35d7dbcc28d2",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -338,7 +338,7 @@
                         "dataurl"
                     ],
                     "positional": false,
-                    "keyAttribute": false,
+                    "encoding": "pickle",
                     "id": "a9fffd06-d0c8-48e7-99c8-0fa14b7d3b38",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
@@ -348,19 +348,21 @@
             "outputAppFields": [],
             "inputApplicationName": "",
             "inputApplicationType": "None",
-            "inputApplicationKey": null,
+            "inputApplicationId": null,
             "inputApplicationDescription": "",
+            "inputApplicationComment": "",
             "outputApplicationName": "",
             "outputApplicationType": "None",
-            "outputApplicationKey": null,
-            "outputApplicationDescription": ""
+            "outputApplicationId": null,
+            "outputApplicationDescription": "",
+            "outputApplicationComment": ""
         }
     ],
     "linkDataArray": [
         {
-            "from": -1,
+            "from": "f545599c-97c6-4038-8667-4264bb7a858d",
             "fromPort": "28963398-3d9d-4587-82d1-57a84f32e2c3",
-            "to": -2,
+            "to": "c18e58f6-c328-4bb5-8ce4-d9ce412d8209",
             "toPort": "d55fbaab-bdce-444d-b36b-90cd17b4c86a",
             "loop_aware": "0",
             "closesLoop": false
