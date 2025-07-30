@@ -7,8 +7,8 @@
         "repoService": "GitHub",
         "repoBranch": "main",
         "repo": "M-Wicenec/EagleTest",
-        "generatorVersion": "v6.4.2 (dev)",
-        "generatorCommitHash": "5c0b2e26",
+        "generatorVersion": "v6.7.0 (dev)",
+        "generatorCommitHash": "7667f775",
         "generatorName": "EAGLE",
         "schemaVersion": "OJS",
         "readonly": false,
@@ -19,7 +19,7 @@
         "lastModifiedName": "",
         "lastModifiedEmail": "",
         "lastModifiedDatetime": 0,
-        "numLGNodes": 2
+        "numLGNodes": 3
     },
     "activeGraphConfigId": "6fb25660-cc66-41dd-a022-cd4a04792365",
     "graphConfigurations": {
@@ -102,7 +102,7 @@
                             "comment": "Change the name of who we are greeting"
                         },
                         "1dc8f6ad-1434-4ca3-b289-12b5018bcad0": {
-                            "value": "1",
+                            "value": 1,
                             "comment": "How many cpu should the helloWorldApp use"
                         }
                     }
@@ -123,7 +123,7 @@
                             "comment": "Change the name of who we are greeting"
                         },
                         "1dc8f6ad-1434-4ca3-b289-12b5018bcad0": {
-                            "value": "",
+                            "value": null,
                             "comment": ""
                         }
                     }
@@ -172,8 +172,9 @@
             "id": "b4759a61-e639-4cae-882d-cfd3d99e532b",
             "name": "HelloWorldApp",
             "description": "A simple APP that implements the standard Hello World in DALiuGE. It allows to change 'World' with some other string and it also permits to connect the single output port to multiple sinks, which will all receive the same message. App does not require any input.",
-            "x": 664.028391320105,
-            "y": 241.30955165956937,
+            "comment": "",
+            "x": 676.528391320105,
+            "y": 253.80955165956937,
             "subject": null,
             "repositoryUrl": "https://github.com/ICRAR/daliuge",
             "commitHash": "0fafa38",
@@ -336,10 +337,12 @@
             "inputApplicationType": "None",
             "inputApplicationId": null,
             "inputApplicationDescription": "",
+            "inputApplicationComment": "",
             "outputApplicationName": "",
             "outputApplicationType": "None",
             "outputApplicationId": null,
-            "outputApplicationDescription": ""
+            "outputApplicationDescription": "",
+            "outputApplicationComment": ""
         },
         {
             "category": "File",
@@ -350,8 +353,9 @@
             "id": "72a639b7-ee32-40dd-8606-ebb5d2ed239a",
             "name": "File",
             "description": "A standard file on a filesystem mounted to the deployment machine",
-            "x": 905.0011798193952,
-            "y": 208.8188386034853,
+            "comment": "",
+            "x": 914.0011798193952,
+            "y": 217.8188386034853,
             "subject": null,
             "repositoryUrl": "https://github.com/ICRAR/daliuge",
             "commitHash": "0fafa38",
@@ -500,14 +504,79 @@
             "inputApplicationType": "None",
             "inputApplicationId": null,
             "inputApplicationDescription": "",
+            "inputApplicationComment": "",
             "outputApplicationName": "",
             "outputApplicationType": "None",
             "outputApplicationId": null,
-            "outputApplicationDescription": ""
+            "outputApplicationDescription": "",
+            "outputApplicationComment": ""
+        },
+        {
+            "category": "Comment",
+            "categoryType": "Other",
+            "isGroup": false,
+            "color": "rgb(157 43 96)",
+            "drawOrderHint": 0,
+            "id": "d4961c29-9f56-41ff-b676-b9df06ad9dfd",
+            "name": "Comment",
+            "description": "A comment template drop",
+            "comment": "",
+            "x": 680.2916204883852,
+            "y": 132.0006107820183,
+            "subject": null,
+            "repositoryUrl": "https://github.com/ICRAR/daliuge",
+            "commitHash": "b5e4298",
+            "paletteDownloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE-graph-repo/master/daliuge/daliuge-master-template.palette",
+            "dataHash": "f76f31b1c70e9a7e91837106a10b929a596d230f4b65009f3e062a89e80fc1ef",
+            "fields": [
+                {
+                    "name": "dropclass",
+                    "value": "dlg.apps.constructs.CommentDrop",
+                    "defaultValue": "dlg.apps.constructs.CommentDrop",
+                    "description": "Drop class",
+                    "readonly": false,
+                    "type": "String",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "6e675126-1883-46c8-af73-e9c02cb00ee3",
+                    "parameterType": "ComponentParameter",
+                    "usage": "NoPort"
+                },
+                {
+                    "name": "base_name",
+                    "value": "constructs",
+                    "defaultValue": "constructs",
+                    "description": "Base name of application class",
+                    "readonly": false,
+                    "type": "String",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "a409956b-532e-42f4-a681-60a07359f0e6",
+                    "parameterType": "ComponentParameter",
+                    "usage": "NoPort"
+                }
+            ],
+            "inputAppFields": [],
+            "outputAppFields": [],
+            "inputApplicationName": "",
+            "inputApplicationType": "None",
+            "inputApplicationId": null,
+            "inputApplicationDescription": "",
+            "inputApplicationComment": "",
+            "outputApplicationName": "",
+            "outputApplicationType": "None",
+            "outputApplicationId": null,
+            "outputApplicationDescription": "",
+            "outputApplicationComment": ""
         }
     ],
     "linkDataArray": [
         {
+            "comment": "",
             "from": "b4759a61-e639-4cae-882d-cfd3d99e532b",
             "fromPort": "9b538ea1-7b1c-412e-84aa-a826a90cf072",
             "to": "72a639b7-ee32-40dd-8606-ebb5d2ed239a",
