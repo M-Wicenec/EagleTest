@@ -7,8 +7,8 @@
         "repoService": "GitHub",
         "repoBranch": "main",
         "repo": "M-Wicenec/EagleTest",
-        "generatorVersion": "v6.6.0 (dev)",
-        "generatorCommitHash": "7d0f1216",
+        "generatorVersion": "v6.7.0 (dev)",
+        "generatorCommitHash": "7667f775",
         "generatorName": "EAGLE",
         "schemaVersion": "OJS",
         "readonly": false,
@@ -33,8 +33,9 @@
             "id": "ec077572-a545-49a5-ac48-546d43048949",
             "name": "ipt",
             "description": "In-memory storage of intermediate data products",
-            "x": 683.9579877518311,
-            "y": 176.03248539498648,
+            "comment": "",
+            "x": 760.6042171031988,
+            "y": 83.98533038792233,
             "subject": null,
             "repositoryUrl": "https://github.com/ICRAR/daliuge",
             "commitHash": "117d50e",
@@ -183,10 +184,12 @@
             "inputApplicationType": "None",
             "inputApplicationId": null,
             "inputApplicationDescription": "",
+            "inputApplicationComment": "",
             "outputApplicationName": "",
             "outputApplicationType": "None",
             "outputApplicationId": null,
-            "outputApplicationDescription": ""
+            "outputApplicationDescription": "",
+            "outputApplicationComment": ""
         },
         {
             "category": "File",
@@ -197,8 +200,9 @@
             "id": "80ae072f-dbaa-428e-8a55-1ac1ad06302b",
             "name": "New Parameter",
             "description": "A standard file on a filesystem mounted to the deployment machine",
-            "x": 1330.613821007711,
-            "y": 72.2687386209361,
+            "comment": "",
+            "x": 1433.6478091694794,
+            "y": 83.22778004097293,
             "subject": null,
             "repositoryUrl": "https://github.com/ICRAR/daliuge",
             "commitHash": "117d50e",
@@ -362,10 +366,12 @@
             "inputApplicationType": "None",
             "inputApplicationId": null,
             "inputApplicationDescription": "",
+            "inputApplicationComment": "",
             "outputApplicationName": "",
             "outputApplicationType": "None",
             "outputApplicationId": null,
-            "outputApplicationDescription": ""
+            "outputApplicationDescription": "",
+            "outputApplicationComment": ""
         },
         {
             "category": "Memory",
@@ -376,8 +382,9 @@
             "id": "4b187f9e-df9d-4a18-8541-f2b3ce1169be",
             "name": "New Parameter",
             "description": "In-memory storage of intermediate data products",
-            "x": 1071.8613189825994,
-            "y": 75.82821165214746,
+            "comment": "",
+            "x": 1104.6552499545612,
+            "y": 82.29830236907442,
             "subject": null,
             "repositoryUrl": "https://github.com/ICRAR/daliuge",
             "commitHash": "117d50e",
@@ -526,10 +533,12 @@
             "inputApplicationType": "None",
             "inputApplicationId": null,
             "inputApplicationDescription": "",
+            "inputApplicationComment": "",
             "outputApplicationName": "",
             "outputApplicationType": "None",
             "outputApplicationId": null,
-            "outputApplicationDescription": ""
+            "outputApplicationDescription": "",
+            "outputApplicationComment": ""
         },
         {
             "category": "DALiuGEApp",
@@ -540,8 +549,9 @@
             "id": "9d99f726-421d-4a9c-9213-900ad6a3bb6f",
             "name": "main.toNumArrArr",
             "description": "Turns ['1 2 3 4 5','2 3 4 5'] into [[1,2,3,4,5],[2,3,4,5]]\n\nParameters:\n-----------\nipt:\n    ['1 2 3 4 5','2 3 4 5']\n\nReturns:\n--------\n    [[1,2,3,4,5],[2,3,4,5]]\n",
-            "x": 1197.093655858288,
-            "y": 70.7587257587167,
+            "comment": "",
+            "x": 1268.7865500065748,
+            "y": 81.57211957000133,
             "subject": null,
             "repositoryUrl": "code",
             "commitHash": "0.1",
@@ -556,9 +566,11 @@
                     "readonly": false,
                     "type": "Object",
                     "precious": false,
-                    "options": [],
+                    "options": [
+                        ""
+                    ],
                     "positional": false,
-                    "encoding": "dill",
+                    "encoding": "pickle",
                     "id": "3c8a5479-18bd-40a5-b400-bf4387dc6c52",
                     "parameterType": "ApplicationArgument",
                     "usage": "InputPort"
@@ -660,10 +672,12 @@
             "inputApplicationType": "None",
             "inputApplicationId": null,
             "inputApplicationDescription": "",
+            "inputApplicationComment": "",
             "outputApplicationName": "",
             "outputApplicationType": "None",
             "outputApplicationId": null,
-            "outputApplicationDescription": ""
+            "outputApplicationDescription": "",
+            "outputApplicationComment": ""
         },
         {
             "category": "DALiuGEApp",
@@ -674,8 +688,9 @@
             "id": "3524827e-c475-4bb1-a614-879074475839",
             "name": "main.toArr",
             "description": "",
-            "x": 956.0039737195063,
-            "y": 59.39134956942864,
+            "comment": "",
+            "x": 937.3017592282722,
+            "y": 83.27594134325732,
             "subject": null,
             "repositoryUrl": "code",
             "commitHash": "0.1",
@@ -778,7 +793,7 @@
                     "defaultValue": "",
                     "description": "",
                     "readonly": false,
-                    "type": "String",
+                    "type": "Object",
                     "precious": false,
                     "options": [],
                     "positional": false,
@@ -794,14 +809,17 @@
             "inputApplicationType": "None",
             "inputApplicationId": null,
             "inputApplicationDescription": "",
+            "inputApplicationComment": "",
             "outputApplicationName": "",
             "outputApplicationType": "None",
             "outputApplicationId": null,
-            "outputApplicationDescription": ""
+            "outputApplicationDescription": "",
+            "outputApplicationComment": ""
         }
     ],
     "linkDataArray": [
         {
+            "comment": "",
             "from": "4b187f9e-df9d-4a18-8541-f2b3ce1169be",
             "fromPort": "c6477a6c-f664-49f3-9f5d-c40e64752bd0",
             "to": "9d99f726-421d-4a9c-9213-900ad6a3bb6f",
@@ -810,6 +828,7 @@
             "closesLoop": false
         },
         {
+            "comment": "",
             "from": "9d99f726-421d-4a9c-9213-900ad6a3bb6f",
             "fromPort": "0219f0fe-1018-4156-87fe-65a12d37c46f",
             "to": "80ae072f-dbaa-428e-8a55-1ac1ad06302b",
@@ -818,6 +837,7 @@
             "closesLoop": false
         },
         {
+            "comment": "",
             "from": "3524827e-c475-4bb1-a614-879074475839",
             "fromPort": "015b506e-380f-4b28-9f16-a80f69bba045",
             "to": "4b187f9e-df9d-4a18-8541-f2b3ce1169be",
@@ -826,6 +846,7 @@
             "closesLoop": false
         },
         {
+            "comment": "",
             "from": "ec077572-a545-49a5-ac48-546d43048949",
             "fromPort": "e979e0af-e927-4f7b-8a56-b7e470091ab7",
             "to": "3524827e-c475-4bb1-a614-879074475839",
