@@ -19,7 +19,7 @@
         "lastModifiedName": "",
         "lastModifiedEmail": "",
         "lastModifiedDatetime": 0,
-        "numLGNodes": 5
+        "numLGNodes": 6
     },
     "activeGraphConfigId": "cf9fb968-e554-4723-baae-4bb41ace9533",
     "graphConfigurations": {
@@ -760,6 +760,68 @@
                     "positional": false,
                     "encoding": "pickle",
                     "id": "fc5bd129-65b2-4f2b-a4c2-a01a320ef932",
+                    "parameterType": "ComponentParameter",
+                    "usage": "NoPort"
+                }
+            ],
+            "inputAppFields": [],
+            "outputAppFields": [],
+            "inputApplicationName": "",
+            "inputApplicationType": "None",
+            "inputApplicationId": null,
+            "inputApplicationDescription": "",
+            "inputApplicationComment": "",
+            "outputApplicationName": "",
+            "outputApplicationType": "None",
+            "outputApplicationId": null,
+            "outputApplicationDescription": "",
+            "outputApplicationComment": ""
+        },
+        {
+            "category": "Comment",
+            "categoryType": "Other",
+            "isGroup": false,
+            "color": "rgb(157 43 96)",
+            "drawOrderHint": 0,
+            "id": "aa9f03fb-3403-4a58-a399-1c1dad394f3c",
+            "name": "Comment",
+            "description": "A comment template drop",
+            "comment": "",
+            "x": 945.6922868254949,
+            "y": 717.4553007850577,
+            "subject": null,
+            "repositoryUrl": "https://github.com/ICRAR/daliuge",
+            "commitHash": "490762c",
+            "paletteDownloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE-graph-repo/master/daliuge/daliuge-master-template.palette",
+            "dataHash": "f76f31b1c70e9a7e91837106a10b929a596d230f4b65009f3e062a89e80fc1ef",
+            "fields": [
+                {
+                    "name": "dropclass",
+                    "value": "dlg.apps.constructs.CommentDrop",
+                    "defaultValue": "dlg.apps.constructs.CommentDrop",
+                    "description": "Drop class",
+                    "readonly": false,
+                    "type": "String",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "abc7fd98-d699-45ec-a268-c2c66b51fbdf",
+                    "parameterType": "ComponentParameter",
+                    "usage": "NoPort"
+                },
+                {
+                    "name": "base_name",
+                    "value": "constructs",
+                    "defaultValue": "constructs",
+                    "description": "Base name of application class",
+                    "readonly": false,
+                    "type": "String",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "33e7620b-728a-4b33-80dd-eb2bd194fa53",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
                 }
