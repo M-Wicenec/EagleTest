@@ -4,28 +4,62 @@
         "fileType": "Graph",
         "shortDescription": "",
         "detailedDescription": "",
-        "repoService": "GitHub",
-        "repoBranch": "main",
-        "repo": "M-Wicenec/EagleTest",
-        "generatorVersion": "v6.4.2 (dev)",
-        "generatorCommitHash": "b7c7b84b",
+        "generatorVersion": "v6.8.0 (dev)",
+        "generatorCommitHash": "7018e1ae",
         "generatorName": "EAGLE",
         "schemaVersion": "OJS",
         "readonly": true,
         "repositoryUrl": "",
-        "commitHash": "",
-        "downloadUrl": "",
         "signature": "",
         "lastModifiedName": "",
         "lastModifiedEmail": "",
         "lastModifiedDatetime": 0,
-        "numLGNodes": 12
+        "numLGNodes": 14,
+        "repo": "M-Wicenec/EagleTest",
+        "repoBranch": "main",
+        "repoService": "GitHub",
+        "commitHash": "",
+        "downloadUrl": ""
     },
     "activeGraphConfigId": "ce61dc64-bcda-4926-a193-185ed1974172",
     "graphConfigurations": {
         "ce61dc64-bcda-4926-a193-185ed1974172": {
-            "name": "test config",
-            "description": "initial value",
+            "modelData": {
+                "name": "test config",
+                "shortDescription": "initial value",
+                "detailedDescription": "",
+                "type": "GraphConfig",
+                "schemaVersion": "Unknown",
+                "readonly": true,
+                "location": {
+                    "repositoryService": "Unknown",
+                    "repositoryBranch": "",
+                    "repositoryName": "",
+                    "repositoryPath": "",
+                    "repositoryFileName": "",
+                    "commitHash": "",
+                    "downloadUrl": ""
+                },
+                "generatorVersion": "",
+                "generatorCommitHash": "",
+                "generatorName": "",
+                "repositoryUrl": "",
+                "graphLocation": {
+                    "repositoryService": "Unknown",
+                    "repositoryBranch": "",
+                    "repositoryName": "",
+                    "repositoryPath": "",
+                    "repositoryFileName": "",
+                    "commitHash": "",
+                    "downloadUrl": ""
+                },
+                "signature": "",
+                "lastModifiedName": "",
+                "lastModifiedEmail": "",
+                "lastModifiedDatetime": 0,
+                "numLGNodes": 0
+            },
+            "id": "ce61dc64-bcda-4926-a193-185ed1974172",
             "nodes": {
                 "713e1f83-f753-483f-8a47-489970519955": {
                     "fields": {
@@ -38,11 +72,11 @@
                 "763f8c75-8838-49c4-a5c9-9c3785c1e4cd": {
                     "fields": {
                         "2f705f53-c4e5-41a1-80ef-c8164b17a8a2": {
-                            "value": "1",
+                            "value": 1,
                             "comment": ""
                         },
                         "7941b352-6684-4edf-a2a0-0e262e88c739": {
-                            "value": "false",
+                            "value": false,
                             "comment": ""
                         },
                         "113a2d6a-d111-47a4-b4d6-6cc8529d3d56": {
@@ -51,14 +85,45 @@
                         }
                     }
                 }
-            },
-            "lastModifiedName": "",
-            "lastModifiedEmail": "",
-            "lastModifiedDatetime": 0
+            }
         },
         "9ddac64a-da5b-4d69-ac54-869e15764296": {
-            "name": "test config (Copy)",
-            "description": "initial value",
+            "modelData": {
+                "name": "test config (Copy)",
+                "shortDescription": "initial value",
+                "detailedDescription": "",
+                "type": "GraphConfig",
+                "schemaVersion": "Unknown",
+                "readonly": true,
+                "location": {
+                    "repositoryService": "Unknown",
+                    "repositoryBranch": "",
+                    "repositoryName": "",
+                    "repositoryPath": "",
+                    "repositoryFileName": "",
+                    "commitHash": "",
+                    "downloadUrl": ""
+                },
+                "generatorVersion": "",
+                "generatorCommitHash": "",
+                "generatorName": "",
+                "repositoryUrl": "",
+                "graphLocation": {
+                    "repositoryService": "Unknown",
+                    "repositoryBranch": "",
+                    "repositoryName": "",
+                    "repositoryPath": "",
+                    "repositoryFileName": "",
+                    "commitHash": "",
+                    "downloadUrl": ""
+                },
+                "signature": "",
+                "lastModifiedName": "",
+                "lastModifiedEmail": "",
+                "lastModifiedDatetime": 0,
+                "numLGNodes": 0
+            },
+            "id": "9ddac64a-da5b-4d69-ac54-869e15764296",
             "nodes": {
                 "713e1f83-f753-483f-8a47-489970519955": {
                     "fields": {
@@ -68,14 +133,45 @@
                         }
                     }
                 }
-            },
-            "lastModifiedName": "",
-            "lastModifiedEmail": "",
-            "lastModifiedDatetime": 0
+            }
         },
         "43481761-16e0-4736-b35a-294213f1457d": {
-            "name": "test config (Copy) (Copy)",
-            "description": "initial value",
+            "modelData": {
+                "name": "test config (Copy) (Copy)",
+                "shortDescription": "initial value",
+                "detailedDescription": "",
+                "type": "GraphConfig",
+                "schemaVersion": "Unknown",
+                "readonly": true,
+                "location": {
+                    "repositoryService": "Unknown",
+                    "repositoryBranch": "",
+                    "repositoryName": "",
+                    "repositoryPath": "",
+                    "repositoryFileName": "",
+                    "commitHash": "",
+                    "downloadUrl": ""
+                },
+                "generatorVersion": "",
+                "generatorCommitHash": "",
+                "generatorName": "",
+                "repositoryUrl": "",
+                "graphLocation": {
+                    "repositoryService": "Unknown",
+                    "repositoryBranch": "",
+                    "repositoryName": "",
+                    "repositoryPath": "",
+                    "repositoryFileName": "",
+                    "commitHash": "",
+                    "downloadUrl": ""
+                },
+                "signature": "",
+                "lastModifiedName": "",
+                "lastModifiedEmail": "",
+                "lastModifiedDatetime": 0,
+                "numLGNodes": 0
+            },
+            "id": "43481761-16e0-4736-b35a-294213f1457d",
             "nodes": {
                 "713e1f83-f753-483f-8a47-489970519955": {
                     "fields": {
@@ -85,10 +181,7 @@
                         }
                     }
                 }
-            },
-            "lastModifiedName": "",
-            "lastModifiedEmail": "",
-            "lastModifiedDatetime": 0
+            }
         }
     },
     "nodeDataArray": [
@@ -101,9 +194,9 @@
             "id": "9b9da903-1ef8-4f17-bd24-338fc29be4ee",
             "name": "graphTester",
             "description": "Takes an input and archives it in an NGAS server.",
+            "comment": "",
             "x": 618,
             "y": 178,
-            "subject": null,
             "repositoryUrl": "https://github.com/ICRAR/daliuge",
             "commitHash": "54f1aac",
             "paletteDownloadUrl": "https://raw.githubusercontent.com/M-Wicenec/EagleTest/01bd095c4c4ee3311e6e3fe203ee7ea74230fb74/datatypeTestPalette.palette?token=AKTUHNTHQPK2PPD6CBEQE6DE2L4LK",
@@ -404,10 +497,12 @@
             "inputApplicationType": "None",
             "inputApplicationId": null,
             "inputApplicationDescription": "",
+            "inputApplicationComment": "",
             "outputApplicationName": "",
             "outputApplicationType": "None",
             "outputApplicationId": null,
-            "outputApplicationDescription": ""
+            "outputApplicationDescription": "",
+            "outputApplicationComment": ""
         },
         {
             "category": "File",
@@ -418,9 +513,9 @@
             "id": "430dfe32-7452-430b-9941-bafb079f9aef",
             "name": "File",
             "description": "A standard file on a filesystem mounted to the deployment machine",
+            "comment": "",
             "x": 426.25051001177064,
             "y": 240.01943419427067,
-            "subject": null,
             "repositoryUrl": "https://github.com/ICRAR/daliuge",
             "commitHash": "0d86856",
             "paletteDownloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE_test_repo/master/daliuge/daliuge-master.palette",
@@ -553,23 +648,25 @@
             "inputApplicationType": "None",
             "inputApplicationId": null,
             "inputApplicationDescription": "",
+            "inputApplicationComment": "",
             "outputApplicationName": "",
             "outputApplicationType": "None",
             "outputApplicationId": null,
-            "outputApplicationDescription": ""
+            "outputApplicationDescription": "",
+            "outputApplicationComment": ""
         },
         {
             "category": "Branch",
-            "categoryType": "Control",
+            "categoryType": "Application",
             "isGroup": false,
-            "color": "rgb(46 161 55)",
+            "color": "#0059a5",
             "drawOrderHint": 0,
             "id": "1e492417-c061-4226-a7a9-a07791def3b7",
             "name": "Branch",
             "description": "A conditional branch to control flow",
+            "comment": "",
             "x": 565,
             "y": -36,
-            "subject": null,
             "repositoryUrl": "https://github.com/ICRAR/daliuge",
             "commitHash": "a55e5f8",
             "paletteDownloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE_test_repo/master/daliuge/daliuge-master-template.palette",
@@ -761,10 +858,12 @@
             "inputApplicationType": "None",
             "inputApplicationId": null,
             "inputApplicationDescription": "",
+            "inputApplicationComment": "",
             "outputApplicationName": "",
             "outputApplicationType": "None",
             "outputApplicationId": null,
-            "outputApplicationDescription": ""
+            "outputApplicationDescription": "",
+            "outputApplicationComment": ""
         },
         {
             "category": "Memory",
@@ -775,9 +874,9 @@
             "id": "f534817c-721a-4a4a-bd0f-5abf42b7f0e1",
             "name": "Memorys",
             "description": "In-memory storage of intermediate data products",
+            "comment": "",
             "x": 805.6066537525088,
             "y": 235.45214359995418,
-            "subject": null,
             "repositoryUrl": "https://github.com/ICRAR/daliuge",
             "commitHash": "44edda3",
             "paletteDownloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE_test_repo/master/daliuge/daliuge-master.palette",
@@ -895,10 +994,12 @@
             "inputApplicationType": "None",
             "inputApplicationId": null,
             "inputApplicationDescription": "",
+            "inputApplicationComment": "",
             "outputApplicationName": "",
             "outputApplicationType": "None",
             "outputApplicationId": null,
-            "outputApplicationDescription": ""
+            "outputApplicationDescription": "",
+            "outputApplicationComment": ""
         },
         {
             "category": "Comment",
@@ -909,9 +1010,9 @@
             "id": "0e11f99b-ccb4-48ee-a10c-9d15282c2966",
             "name": "Comment",
             "description": "A comment template drop",
+            "comment": "",
             "x": 596,
             "y": 475,
-            "subject": "f534817c-721a-4a4a-bd0f-5abf42b7f0e1",
             "repositoryUrl": "https://github.com/ICRAR/daliuge",
             "commitHash": "44edda3",
             "paletteDownloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE_test_repo/master/daliuge/daliuge-master-template.palette",
@@ -939,10 +1040,12 @@
             "inputApplicationType": "None",
             "inputApplicationId": null,
             "inputApplicationDescription": "",
+            "inputApplicationComment": "",
             "outputApplicationName": "",
             "outputApplicationType": "None",
             "outputApplicationId": null,
-            "outputApplicationDescription": ""
+            "outputApplicationDescription": "",
+            "outputApplicationComment": ""
         },
         {
             "category": "GroupBy",
@@ -953,9 +1056,9 @@
             "id": "d526d9bf-5f25-4075-b082-eb480e6792bf",
             "name": "GroupBy",
             "description": "A GroupBy template drop",
+            "comment": "",
             "x": 1176.8678160187305,
             "y": 307.48307506091743,
-            "subject": null,
             "repositoryUrl": "https://github.com/ICRAR/daliuge",
             "commitHash": "44edda3",
             "paletteDownloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE_test_repo/master/daliuge/daliuge-master-template.palette",
@@ -1365,12 +1468,14 @@
             ],
             "inputApplicationName": "GenericNpyScatterApp",
             "inputApplicationType": "PythonApp",
-            "inputApplicationId": "9dfe2f0b-7944-4e7f-96e3-412e9a5ec65d",
+            "inputApplicationId": "74b4ae06-c695-4721-b981-22911ac770d9",
             "inputApplicationDescription": "An APP that splits about any axis on any npy format data drop into as many part./run s as the app has outputs, provided that the initially converted numpy array has enough elements. The return will be a numpy array of arrays, where the first axis is of length len(outputs). The modulo remainder of the length of the original array and the number of outputs will be distributed across the first len(outputs)-1 elements of the resulting array.",
+            "inputApplicationComment": "",
             "outputApplicationName": "GenericNpyGatherApp",
             "outputApplicationType": "PythonApp",
-            "outputApplicationId": "ab0080cc-2d79-4ebe-84b9-5a3d8e72b3e5",
-            "outputApplicationDescription": "A BarrierAppDrop that combines one or more inputs using cumulative operations."
+            "outputApplicationId": "dd5d80d3-c02f-45a0-8c0a-dfad05912f69",
+            "outputApplicationDescription": "A BarrierAppDrop that combines one or more inputs using cumulative operations.",
+            "outputApplicationComment": ""
         },
         {
             "category": "SharedMemory",
@@ -1381,9 +1486,9 @@
             "id": "713e1f83-f753-483f-8a47-489970519955",
             "name": "SharedMemory",
             "description": "Data stored in shared memory",
+            "comment": "",
             "x": 1704.1777785127515,
             "y": 108.28324883278,
-            "subject": null,
             "repositoryUrl": "https://github.com/ICRAR/daliuge",
             "commitHash": "44edda3",
             "paletteDownloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE_test_repo/master/daliuge/daliuge-master.palette",
@@ -1486,10 +1591,12 @@
             "inputApplicationType": "None",
             "inputApplicationId": null,
             "inputApplicationDescription": "",
+            "inputApplicationComment": "",
             "outputApplicationName": "",
             "outputApplicationType": "None",
             "outputApplicationId": null,
-            "outputApplicationDescription": ""
+            "outputApplicationDescription": "",
+            "outputApplicationComment": ""
         },
         {
             "category": "Memory",
@@ -1500,9 +1607,9 @@
             "id": "ee8f6ea8-d0ec-40f8-8d5b-914b428e6c52",
             "name": "Memory",
             "description": "In-memory storage of intermediate data products",
+            "comment": "",
             "x": 1008.5576820780716,
             "y": 303.4661501218377,
-            "subject": null,
             "repositoryUrl": "https://github.com/ICRAR/daliuge",
             "commitHash": "44edda3",
             "paletteDownloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE_test_repo/master/daliuge/daliuge-master.palette",
@@ -1621,10 +1728,12 @@
             "inputApplicationType": "None",
             "inputApplicationId": null,
             "inputApplicationDescription": "",
+            "inputApplicationComment": "",
             "outputApplicationName": "",
             "outputApplicationType": "None",
             "outputApplicationId": null,
-            "outputApplicationDescription": ""
+            "outputApplicationDescription": "",
+            "outputApplicationComment": ""
         },
         {
             "category": "PythonApp",
@@ -1635,9 +1744,9 @@
             "id": "763f8c75-8838-49c4-a5c9-9c3785c1e4cd",
             "name": "PythonApp",
             "description": "A placeholder APP to aid construction of new applications. This is mainly useful (and used) when starting a new workflow from scratch.",
+            "comment": "",
             "x": 1186.3538963831277,
             "y": 307.48307506091743,
-            "subject": null,
             "repositoryUrl": "https://github.com/ICRAR/daliuge",
             "commitHash": "44edda3",
             "paletteDownloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE_test_repo/master/daliuge/daliuge-master-template.palette",
@@ -1741,10 +1850,12 @@
             "inputApplicationType": "None",
             "inputApplicationId": null,
             "inputApplicationDescription": "",
+            "inputApplicationComment": "",
             "outputApplicationName": "",
             "outputApplicationType": "None",
             "outputApplicationId": null,
-            "outputApplicationDescription": ""
+            "outputApplicationDescription": "",
+            "outputApplicationComment": ""
         },
         {
             "category": "Memory",
@@ -1755,9 +1866,9 @@
             "id": "35d69a9e-9e6b-498b-81fa-ae091a4963de",
             "name": "Memory2",
             "description": "In-memory storage of intermediate data products",
+            "comment": "",
             "x": 1345.1779499593895,
             "y": 309.33096083708915,
-            "subject": null,
             "repositoryUrl": "https://github.com/ICRAR/daliuge",
             "commitHash": "44edda3",
             "paletteDownloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE_test_repo/master/daliuge/daliuge-master.palette",
@@ -1876,10 +1987,12 @@
             "inputApplicationType": "None",
             "inputApplicationId": null,
             "inputApplicationDescription": "",
+            "inputApplicationComment": "",
             "outputApplicationName": "",
             "outputApplicationType": "None",
             "outputApplicationId": null,
-            "outputApplicationDescription": ""
+            "outputApplicationDescription": "",
+            "outputApplicationComment": ""
         },
         {
             "category": "File",
@@ -1890,9 +2003,9 @@
             "id": "4099348a-5535-4bb8-bce9-9cc61269c9b7",
             "name": "File",
             "description": "A standard file on a filesystem mounted to the deployment machine",
+            "comment": "",
             "x": 772.4587968038404,
             "y": 75.4102982377502,
-            "subject": null,
             "repositoryUrl": "https://github.com/ICRAR/daliuge",
             "commitHash": "44edda3",
             "paletteDownloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE_test_repo/master/daliuge/daliuge-master.palette",
@@ -2040,10 +2153,12 @@
             "inputApplicationType": "None",
             "inputApplicationId": null,
             "inputApplicationDescription": "",
+            "inputApplicationComment": "",
             "outputApplicationName": "",
             "outputApplicationType": "None",
             "outputApplicationId": null,
-            "outputApplicationDescription": ""
+            "outputApplicationDescription": "",
+            "outputApplicationComment": ""
         },
         {
             "category": "PythonApp",
@@ -2054,9 +2169,9 @@
             "id": "50822253-22aa-469b-bf5e-ba8bb638c205",
             "name": "PythonApp",
             "description": "A placeholder APP to aid construction of new applications. This is mainly useful (and used) when starting a new workflow from scratch.",
+            "comment": "",
             "x": 596.3068139616565,
             "y": 244.2364174810827,
-            "subject": null,
             "repositoryUrl": "https://github.com/ICRAR/daliuge",
             "commitHash": "44edda3",
             "paletteDownloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE_test_repo/master/daliuge/daliuge-master-template.palette",
@@ -2159,14 +2274,17 @@
             "inputApplicationType": "None",
             "inputApplicationId": null,
             "inputApplicationDescription": "",
+            "inputApplicationComment": "",
             "outputApplicationName": "",
             "outputApplicationType": "None",
             "outputApplicationId": null,
-            "outputApplicationDescription": ""
+            "outputApplicationDescription": "",
+            "outputApplicationComment": ""
         }
     ],
     "linkDataArray": [
         {
+            "comment": "",
             "from": "430dfe32-7452-430b-9941-bafb079f9aef",
             "fromPort": "fea12ba2-4dc5-40e6-8a05-b46f1a6040aa",
             "to": "9b9da903-1ef8-4f17-bd24-338fc29be4ee",
@@ -2175,6 +2293,7 @@
             "closesLoop": false
         },
         {
+            "comment": "",
             "from": "1e492417-c061-4226-a7a9-a07791def3b7",
             "fromPort": "18873665-6421-49e9-a875-8937719ee398",
             "to": "9b9da903-1ef8-4f17-bd24-338fc29be4ee",
@@ -2183,6 +2302,7 @@
             "closesLoop": false
         },
         {
+            "comment": "",
             "from": "9b9da903-1ef8-4f17-bd24-338fc29be4ee",
             "fromPort": "794d3052-4fe4-48c0-9375-77bb92993b6d",
             "to": "f534817c-721a-4a4a-bd0f-5abf42b7f0e1",
@@ -2191,6 +2311,7 @@
             "closesLoop": false
         },
         {
+            "comment": "",
             "from": "f534817c-721a-4a4a-bd0f-5abf42b7f0e1",
             "fromPort": "4bbefc3f-b553-48ab-9f3d-13f4341ac121",
             "to": "d526d9bf-5f25-4075-b082-eb480e6792bf",
@@ -2199,6 +2320,7 @@
             "closesLoop": false
         },
         {
+            "comment": "",
             "from": "d526d9bf-5f25-4075-b082-eb480e6792bf",
             "fromPort": "ca4e391b-bd41-4750-9f2b-50c87d9f63a3",
             "to": "713e1f83-f753-483f-8a47-489970519955",
@@ -2207,6 +2329,7 @@
             "closesLoop": false
         },
         {
+            "comment": "",
             "from": "d526d9bf-5f25-4075-b082-eb480e6792bf",
             "fromPort": "4e1f1074-9554-4c16-a714-9f6c31a3f155",
             "to": "ee8f6ea8-d0ec-40f8-8d5b-914b428e6c52",
@@ -2215,6 +2338,7 @@
             "closesLoop": false
         },
         {
+            "comment": "",
             "from": "ee8f6ea8-d0ec-40f8-8d5b-914b428e6c52",
             "fromPort": "78526ebb-86dc-44a8-b59a-95471c2b890d",
             "to": "763f8c75-8838-49c4-a5c9-9c3785c1e4cd",
@@ -2223,6 +2347,7 @@
             "closesLoop": false
         },
         {
+            "comment": "",
             "from": "763f8c75-8838-49c4-a5c9-9c3785c1e4cd",
             "fromPort": "37db954b-487b-41d0-a057-c51456d5a461",
             "to": "35d69a9e-9e6b-498b-81fa-ae091a4963de",
@@ -2231,6 +2356,7 @@
             "closesLoop": false
         },
         {
+            "comment": "",
             "from": "35d69a9e-9e6b-498b-81fa-ae091a4963de",
             "fromPort": "80be03b2-a5b0-4874-8cfd-917fb0736d48",
             "to": "d526d9bf-5f25-4075-b082-eb480e6792bf",
@@ -2239,6 +2365,7 @@
             "closesLoop": false
         },
         {
+            "comment": "",
             "from": "9b9da903-1ef8-4f17-bd24-338fc29be4ee",
             "fromPort": "213b8234-e0b4-4742-a65b-b1ba06e72b25",
             "to": "4099348a-5535-4bb8-bce9-9cc61269c9b7",
@@ -2247,6 +2374,7 @@
             "closesLoop": false
         },
         {
+            "comment": "",
             "from": "50822253-22aa-469b-bf5e-ba8bb638c205",
             "fromPort": "d4e80bb1-d83b-4804-8fa6-1671b1aa2ca6",
             "to": "430dfe32-7452-430b-9941-bafb079f9aef",
