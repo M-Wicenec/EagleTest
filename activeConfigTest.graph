@@ -1468,12 +1468,12 @@
             ],
             "inputApplicationName": "GenericNpyScatterApp",
             "inputApplicationType": "PythonApp",
-            "inputApplicationId": "599885ab-a029-4b69-8b31-4469ca2201fd",
+            "inputApplicationId": "89516154-c713-44f5-851f-d694f6fa14cb",
             "inputApplicationDescription": "An APP that splits about any axis on any npy format data drop into as many part./run s as the app has outputs, provided that the initially converted numpy array has enough elements. The return will be a numpy array of arrays, where the first axis is of length len(outputs). The modulo remainder of the length of the original array and the number of outputs will be distributed across the first len(outputs)-1 elements of the resulting array.",
             "inputApplicationComment": "",
             "outputApplicationName": "GenericNpyGatherApp",
             "outputApplicationType": "PythonApp",
-            "outputApplicationId": "deaa5182-cdb9-4af7-87b8-a8c90506d784",
+            "outputApplicationId": "2ce92056-46a7-4cf6-b5d0-2d339ee8191b",
             "outputApplicationDescription": "A BarrierAppDrop that combines one or more inputs using cumulative operations.",
             "outputApplicationComment": ""
         },
@@ -2385,13 +2385,13 @@
     ],
     "visualDataArray": [
         {
-            "id": "3b005626-2192-4e59-8331-1a1f6c7143e2",
+            "id": "9b57034a-193d-45a4-a133-13e24cd7b672",
             "x": 1338.02409482765,
             "y": -90.73659814583638,
             "width": 0,
             "height": 0,
             "type": "Text",
-            "content": "",
+            "content": "this is some test text for the text visual system",
             "targetId": null,
             "targetLocation": null
         }
