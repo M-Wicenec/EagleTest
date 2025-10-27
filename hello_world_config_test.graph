@@ -7,8 +7,8 @@
         "repoService": "GitHub",
         "repoBranch": "main",
         "repo": "M-Wicenec/EagleTest",
-        "generatorVersion": "v6.7.0 (dev)",
-        "generatorCommitHash": "7667f775",
+        "generatorVersion": "v6.9.0 (dev)",
+        "generatorCommitHash": "a36732fe",
         "generatorName": "EAGLE",
         "schemaVersion": "OJS",
         "readonly": false,
@@ -24,8 +24,42 @@
     "activeGraphConfigId": "6fb25660-cc66-41dd-a022-cd4a04792365",
     "graphConfigurations": {
         "a9d3cfdf-49a5-4a4c-b36d-832cf21c5833": {
-            "name": "greet John",
-            "description": "simple hello world config for name",
+            "modelData": {
+                "name": "greet John",
+                "shortDescription": "simple hello world config for name",
+                "detailedDescription": "",
+                "type": "GraphConfig",
+                "schemaVersion": "Unknown",
+                "readonly": true,
+                "location": {
+                    "repositoryService": "Unknown",
+                    "repositoryBranch": "",
+                    "repositoryName": "",
+                    "repositoryPath": "",
+                    "repositoryFileName": "",
+                    "commitHash": "",
+                    "downloadUrl": ""
+                },
+                "generatorVersion": "",
+                "generatorCommitHash": "",
+                "generatorName": "",
+                "repositoryUrl": "",
+                "graphLocation": {
+                    "repositoryService": "GitHub",
+                    "repositoryBranch": "main",
+                    "repositoryName": "M-Wicenec/EagleTest",
+                    "repositoryPath": "",
+                    "repositoryFileName": "hello_world_config_test.graph",
+                    "commitHash": "6498f624f90fa92f1ce8520b171994b1bd25b92b",
+                    "downloadUrl": "https://raw.githubusercontent.com/M-Wicenec/EagleTest/6498f624f90fa92f1ce8520b171994b1bd25b92b/hello_world_config_test.graph"
+                },
+                "signature": "",
+                "lastModifiedName": "",
+                "lastModifiedEmail": "",
+                "lastModifiedDatetime": 0,
+                "numLGNodes": 0
+            },
+            "id": "a9d3cfdf-49a5-4a4c-b36d-832cf21c5833",
             "nodes": {
                 "b4759a61-e639-4cae-882d-cfd3d99e532b": {
                     "fields": {
@@ -35,14 +69,45 @@
                         }
                     }
                 }
-            },
-            "lastModifiedName": "",
-            "lastModifiedEmail": "",
-            "lastModifiedDatetime": 0
+            }
         },
         "ae459939-44c5-4f86-ab78-f48183629943": {
-            "name": "greet Mary",
-            "description": "simple hello world config for name",
+            "modelData": {
+                "name": "greet Mary",
+                "shortDescription": "simple hello world config for name",
+                "detailedDescription": "",
+                "type": "GraphConfig",
+                "schemaVersion": "Unknown",
+                "readonly": true,
+                "location": {
+                    "repositoryService": "Unknown",
+                    "repositoryBranch": "",
+                    "repositoryName": "",
+                    "repositoryPath": "",
+                    "repositoryFileName": "",
+                    "commitHash": "",
+                    "downloadUrl": ""
+                },
+                "generatorVersion": "",
+                "generatorCommitHash": "",
+                "generatorName": "",
+                "repositoryUrl": "",
+                "graphLocation": {
+                    "repositoryService": "GitHub",
+                    "repositoryBranch": "main",
+                    "repositoryName": "M-Wicenec/EagleTest",
+                    "repositoryPath": "",
+                    "repositoryFileName": "hello_world_config_test.graph",
+                    "commitHash": "6498f624f90fa92f1ce8520b171994b1bd25b92b",
+                    "downloadUrl": "https://raw.githubusercontent.com/M-Wicenec/EagleTest/6498f624f90fa92f1ce8520b171994b1bd25b92b/hello_world_config_test.graph"
+                },
+                "signature": "",
+                "lastModifiedName": "",
+                "lastModifiedEmail": "",
+                "lastModifiedDatetime": 0,
+                "numLGNodes": 0
+            },
+            "id": "ae459939-44c5-4f86-ab78-f48183629943",
             "nodes": {
                 "b4759a61-e639-4cae-882d-cfd3d99e532b": {
                     "fields": {
@@ -52,14 +117,45 @@
                         }
                     }
                 }
-            },
-            "lastModifiedName": "",
-            "lastModifiedEmail": "",
-            "lastModifiedDatetime": 0
+            }
         },
         "574b7cf5-dd38-45ea-b158-38c5e5e15429": {
-            "name": "greet Kevin",
-            "description": "simple hello world config for name",
+            "modelData": {
+                "name": "greet Kevin",
+                "shortDescription": "simple hello world config for name",
+                "detailedDescription": "",
+                "type": "GraphConfig",
+                "schemaVersion": "Unknown",
+                "readonly": true,
+                "location": {
+                    "repositoryService": "Unknown",
+                    "repositoryBranch": "",
+                    "repositoryName": "",
+                    "repositoryPath": "",
+                    "repositoryFileName": "",
+                    "commitHash": "",
+                    "downloadUrl": ""
+                },
+                "generatorVersion": "",
+                "generatorCommitHash": "",
+                "generatorName": "",
+                "repositoryUrl": "",
+                "graphLocation": {
+                    "repositoryService": "GitHub",
+                    "repositoryBranch": "main",
+                    "repositoryName": "M-Wicenec/EagleTest",
+                    "repositoryPath": "",
+                    "repositoryFileName": "hello_world_config_test.graph",
+                    "commitHash": "6498f624f90fa92f1ce8520b171994b1bd25b92b",
+                    "downloadUrl": "https://raw.githubusercontent.com/M-Wicenec/EagleTest/6498f624f90fa92f1ce8520b171994b1bd25b92b/hello_world_config_test.graph"
+                },
+                "signature": "",
+                "lastModifiedName": "",
+                "lastModifiedEmail": "",
+                "lastModifiedDatetime": 0,
+                "numLGNodes": 0
+            },
+            "id": "574b7cf5-dd38-45ea-b158-38c5e5e15429",
             "nodes": {
                 "b4759a61-e639-4cae-882d-cfd3d99e532b": {
                     "fields": {
@@ -69,14 +165,45 @@
                         }
                     }
                 }
-            },
-            "lastModifiedName": "",
-            "lastModifiedEmail": "",
-            "lastModifiedDatetime": 0
+            }
         },
         "6fb25660-cc66-41dd-a022-cd4a04792365": {
-            "name": "greet Mark",
-            "description": "simple hello world config for name",
+            "modelData": {
+                "name": "greet Mark",
+                "shortDescription": "simple hello world config for name",
+                "detailedDescription": "",
+                "type": "GraphConfig",
+                "schemaVersion": "Unknown",
+                "readonly": true,
+                "location": {
+                    "repositoryService": "Unknown",
+                    "repositoryBranch": "",
+                    "repositoryName": "",
+                    "repositoryPath": "",
+                    "repositoryFileName": "",
+                    "commitHash": "",
+                    "downloadUrl": ""
+                },
+                "generatorVersion": "",
+                "generatorCommitHash": "",
+                "generatorName": "",
+                "repositoryUrl": "",
+                "graphLocation": {
+                    "repositoryService": "GitHub",
+                    "repositoryBranch": "main",
+                    "repositoryName": "M-Wicenec/EagleTest",
+                    "repositoryPath": "",
+                    "repositoryFileName": "hello_world_config_test.graph",
+                    "commitHash": "6498f624f90fa92f1ce8520b171994b1bd25b92b",
+                    "downloadUrl": "https://raw.githubusercontent.com/M-Wicenec/EagleTest/6498f624f90fa92f1ce8520b171994b1bd25b92b/hello_world_config_test.graph"
+                },
+                "signature": "",
+                "lastModifiedName": "",
+                "lastModifiedEmail": "",
+                "lastModifiedDatetime": 0,
+                "numLGNodes": 0
+            },
+            "id": "6fb25660-cc66-41dd-a022-cd4a04792365",
             "nodes": {
                 "b4759a61-e639-4cae-882d-cfd3d99e532b": {
                     "fields": {
@@ -86,14 +213,45 @@
                         }
                     }
                 }
-            },
-            "lastModifiedName": "",
-            "lastModifiedEmail": "",
-            "lastModifiedDatetime": 0
+            }
         },
         "9a30bb2e-be04-403a-9ab7-7f38d5deb1c4": {
-            "name": "greet Mark (with cpu adjustment)",
-            "description": "simple hello world config for name with cpu adjustment",
+            "modelData": {
+                "name": "greet Mark (with cpu adjustment)",
+                "shortDescription": "simple hello world config for name with cpu adjustment",
+                "detailedDescription": "",
+                "type": "GraphConfig",
+                "schemaVersion": "Unknown",
+                "readonly": true,
+                "location": {
+                    "repositoryService": "Unknown",
+                    "repositoryBranch": "",
+                    "repositoryName": "",
+                    "repositoryPath": "",
+                    "repositoryFileName": "",
+                    "commitHash": "",
+                    "downloadUrl": ""
+                },
+                "generatorVersion": "",
+                "generatorCommitHash": "",
+                "generatorName": "",
+                "repositoryUrl": "",
+                "graphLocation": {
+                    "repositoryService": "GitHub",
+                    "repositoryBranch": "main",
+                    "repositoryName": "M-Wicenec/EagleTest",
+                    "repositoryPath": "",
+                    "repositoryFileName": "hello_world_config_test.graph",
+                    "commitHash": "6498f624f90fa92f1ce8520b171994b1bd25b92b",
+                    "downloadUrl": "https://raw.githubusercontent.com/M-Wicenec/EagleTest/6498f624f90fa92f1ce8520b171994b1bd25b92b/hello_world_config_test.graph"
+                },
+                "signature": "",
+                "lastModifiedName": "",
+                "lastModifiedEmail": "",
+                "lastModifiedDatetime": 0,
+                "numLGNodes": 0
+            },
+            "id": "9a30bb2e-be04-403a-9ab7-7f38d5deb1c4",
             "nodes": {
                 "b4759a61-e639-4cae-882d-cfd3d99e532b": {
                     "fields": {
@@ -107,14 +265,45 @@
                         }
                     }
                 }
-            },
-            "lastModifiedName": "",
-            "lastModifiedEmail": "",
-            "lastModifiedDatetime": 0
+            }
         },
         "058fda87-775c-49a7-ba3b-878d63aebd56": {
-            "name": "greet Kevin (with cpu adjustment)",
-            "description": "simple hello world config for name with cpu adjustment",
+            "modelData": {
+                "name": "greet Kevin (with cpu adjustment)",
+                "shortDescription": "simple hello world config for name with cpu adjustment",
+                "detailedDescription": "",
+                "type": "GraphConfig",
+                "schemaVersion": "Unknown",
+                "readonly": true,
+                "location": {
+                    "repositoryService": "Unknown",
+                    "repositoryBranch": "",
+                    "repositoryName": "",
+                    "repositoryPath": "",
+                    "repositoryFileName": "",
+                    "commitHash": "",
+                    "downloadUrl": ""
+                },
+                "generatorVersion": "",
+                "generatorCommitHash": "",
+                "generatorName": "",
+                "repositoryUrl": "",
+                "graphLocation": {
+                    "repositoryService": "GitHub",
+                    "repositoryBranch": "main",
+                    "repositoryName": "M-Wicenec/EagleTest",
+                    "repositoryPath": "",
+                    "repositoryFileName": "hello_world_config_test.graph",
+                    "commitHash": "6498f624f90fa92f1ce8520b171994b1bd25b92b",
+                    "downloadUrl": "https://raw.githubusercontent.com/M-Wicenec/EagleTest/6498f624f90fa92f1ce8520b171994b1bd25b92b/hello_world_config_test.graph"
+                },
+                "signature": "",
+                "lastModifiedName": "",
+                "lastModifiedEmail": "",
+                "lastModifiedDatetime": 0,
+                "numLGNodes": 0
+            },
+            "id": "058fda87-775c-49a7-ba3b-878d63aebd56",
             "nodes": {
                 "b4759a61-e639-4cae-882d-cfd3d99e532b": {
                     "fields": {
@@ -131,14 +320,45 @@
                 "72a639b7-ee32-40dd-8606-ebb5d2ed239a": {
                     "fields": {}
                 }
-            },
-            "lastModifiedName": "",
-            "lastModifiedEmail": "",
-            "lastModifiedDatetime": 0
+            }
         },
         "fd93c729-2e3c-4007-9cb7-bc7c9ad856d5": {
-            "name": "greet Kevin (filepath)",
-            "description": "simple hello world config (filepath)",
+            "modelData": {
+                "name": "greet Kevin (filepath)",
+                "shortDescription": "simple hello world config (filepath)",
+                "detailedDescription": "",
+                "type": "GraphConfig",
+                "schemaVersion": "Unknown",
+                "readonly": true,
+                "location": {
+                    "repositoryService": "Unknown",
+                    "repositoryBranch": "",
+                    "repositoryName": "",
+                    "repositoryPath": "",
+                    "repositoryFileName": "",
+                    "commitHash": "",
+                    "downloadUrl": ""
+                },
+                "generatorVersion": "",
+                "generatorCommitHash": "",
+                "generatorName": "",
+                "repositoryUrl": "",
+                "graphLocation": {
+                    "repositoryService": "GitHub",
+                    "repositoryBranch": "main",
+                    "repositoryName": "M-Wicenec/EagleTest",
+                    "repositoryPath": "",
+                    "repositoryFileName": "hello_world_config_test.graph",
+                    "commitHash": "6498f624f90fa92f1ce8520b171994b1bd25b92b",
+                    "downloadUrl": "https://raw.githubusercontent.com/M-Wicenec/EagleTest/6498f624f90fa92f1ce8520b171994b1bd25b92b/hello_world_config_test.graph"
+                },
+                "signature": "",
+                "lastModifiedName": "",
+                "lastModifiedEmail": "",
+                "lastModifiedDatetime": 0,
+                "numLGNodes": 0
+            },
+            "id": "fd93c729-2e3c-4007-9cb7-bc7c9ad856d5",
             "nodes": {
                 "b4759a61-e639-4cae-882d-cfd3d99e532b": {
                     "fields": {
@@ -156,15 +376,12 @@
                         }
                     }
                 }
-            },
-            "lastModifiedName": "",
-            "lastModifiedEmail": "",
-            "lastModifiedDatetime": 0
+            }
         }
     },
     "nodeDataArray": [
         {
-            "category": "PythonApp",
+            "category": "DALiuGEApp",
             "categoryType": "Application",
             "isGroup": false,
             "color": "#0059a5",
@@ -175,7 +392,6 @@
             "comment": "",
             "x": 676.528391320105,
             "y": 253.80955165956937,
-            "subject": null,
             "repositoryUrl": "https://github.com/ICRAR/daliuge",
             "commitHash": "0fafa38",
             "paletteDownloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE-graph-repo/master/daliuge/daliuge-master.palette",
@@ -356,7 +572,6 @@
             "comment": "",
             "x": 914.0011798193952,
             "y": 217.8188386034853,
-            "subject": null,
             "repositoryUrl": "https://github.com/ICRAR/daliuge",
             "commitHash": "0fafa38",
             "paletteDownloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE-graph-repo/master/daliuge/daliuge-master.palette",
@@ -515,7 +730,7 @@
             "category": "Comment",
             "categoryType": "Other",
             "isGroup": false,
-            "color": "rgb(157 43 96)",
+            "color": "#9d2b60",
             "drawOrderHint": 0,
             "id": "d4961c29-9f56-41ff-b676-b9df06ad9dfd",
             "name": "Comment",
@@ -523,7 +738,6 @@
             "comment": "",
             "x": 680.2916204883852,
             "y": 132.0006107820183,
-            "subject": null,
             "repositoryUrl": "https://github.com/ICRAR/daliuge",
             "commitHash": "b5e4298",
             "paletteDownloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE-graph-repo/master/daliuge/daliuge-master-template.palette",
