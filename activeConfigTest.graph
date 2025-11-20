@@ -4,8 +4,8 @@
         "fileType": "Graph",
         "shortDescription": "",
         "detailedDescription": "",
-        "generatorVersion": "v6.9.0 (dev)",
-        "generatorCommitHash": "a0a84601",
+        "generatorVersion": "v6.8.0 (dev)",
+        "generatorCommitHash": "41e411f8",
         "generatorName": "EAGLE",
         "schemaVersion": "OJS",
         "readonly": true,
@@ -1468,12 +1468,12 @@
             ],
             "inputApplicationName": "GenericNpyScatterApp",
             "inputApplicationType": "PythonApp",
-            "inputApplicationId": "a3c1c297-3523-46df-8891-f19ef80da0c2",
+            "inputApplicationId": "4d7dea39-7293-4f7d-b09c-5d69e331810d",
             "inputApplicationDescription": "An APP that splits about any axis on any npy format data drop into as many part./run s as the app has outputs, provided that the initially converted numpy array has enough elements. The return will be a numpy array of arrays, where the first axis is of length len(outputs). The modulo remainder of the length of the original array and the number of outputs will be distributed across the first len(outputs)-1 elements of the resulting array.",
             "inputApplicationComment": "",
             "outputApplicationName": "GenericNpyGatherApp",
             "outputApplicationType": "PythonApp",
-            "outputApplicationId": "9e8a3409-abfa-4116-8ab6-1b809d5e4c37",
+            "outputApplicationId": "7d50cb2b-af9d-4ab1-91f2-ccf4eed6252b",
             "outputApplicationDescription": "A BarrierAppDrop that combines one or more inputs using cumulative operations.",
             "outputApplicationComment": ""
         },
@@ -2385,13 +2385,24 @@
     ],
     "visualDataArray": [
         {
-            "id": "407ed806-3e9f-49d9-82f9-53d0ca1bc5fd",
+            "id": "f52eaeee-a918-48a4-878f-135e6645105a",
             "x": 634.5650756870842,
             "y": -170.35104794721792,
             "width": 226.04962369087184,
             "height": 154.75310148067948,
             "type": "Text",
             "content": "#check out this node\nthis is some test text for the text visual system",
+            "targetId": null,
+            "targetLocation": null
+        },
+        {
+            "id": "ee18da54-0b9d-46c7-82bc-9dce07fff426",
+            "x": 1371.0091858429798,
+            "y": -207.18200351918654,
+            "width": 150,
+            "height": 100,
+            "type": "Group",
+            "content": "",
             "targetId": null,
             "targetLocation": null
         }
