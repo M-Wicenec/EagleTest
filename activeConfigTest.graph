@@ -5,7 +5,7 @@
         "shortDescription": "",
         "detailedDescription": "",
         "generatorVersion": "v6.8.0 (dev)",
-        "generatorCommitHash": "41e411f8",
+        "generatorCommitHash": "b30c07e2",
         "generatorName": "EAGLE",
         "schemaVersion": "OJS",
         "readonly": true,
@@ -1468,12 +1468,12 @@
             ],
             "inputApplicationName": "GenericNpyScatterApp",
             "inputApplicationType": "PythonApp",
-            "inputApplicationId": "eda263f8-a396-41a0-ae41-18e3bae1a6e7",
+            "inputApplicationId": "f0d413a7-3d5e-43f3-9fde-cf3aeee43a27",
             "inputApplicationDescription": "An APP that splits about any axis on any npy format data drop into as many part./run s as the app has outputs, provided that the initially converted numpy array has enough elements. The return will be a numpy array of arrays, where the first axis is of length len(outputs). The modulo remainder of the length of the original array and the number of outputs will be distributed across the first len(outputs)-1 elements of the resulting array.",
             "inputApplicationComment": "",
             "outputApplicationName": "GenericNpyGatherApp",
             "outputApplicationType": "PythonApp",
-            "outputApplicationId": "62c3e9e9-abc7-488b-8ca2-212af35e0ecb",
+            "outputApplicationId": "3b46eba6-b415-4437-8b45-5fa18163dfba",
             "outputApplicationDescription": "A BarrierAppDrop that combines one or more inputs using cumulative operations.",
             "outputApplicationComment": ""
         },
@@ -2385,35 +2385,38 @@
     ],
     "visualDataArray": [
         {
-            "id": "6de42aad-6c9d-401c-bb2e-073dee569f8e",
+            "id": "2a6b90f5-22aa-4789-b478-42d4e88ea01e",
             "x": 1004.1682230516983,
             "y": 10.947132026743107,
             "width": 358.28761213881535,
             "height": 170.87968543774565,
             "type": "Text",
             "content": "#check out this node\nthis is some test text for the text visual system",
+            "color": "#b4d4ff",
             "targetId": "763f8c75-8838-49c4-a5c9-9c3785c1e4cd",
             "targetLocation": null
         },
         {
-            "id": "540ddc5a-1aa1-4402-91d0-632b88fafa86",
+            "id": "d1c26095-8abb-451d-912a-fbf4ebb2e3e4",
             "x": 515.7965988734027,
             "y": 259.23552179631736,
             "width": 473.30717752216844,
             "height": 494.3227942942306,
             "type": "Group",
             "content": "",
+            "color": "#b4d4ff",
             "targetId": null,
             "targetLocation": null
         },
         {
-            "id": "67b50dda-9eed-4e3c-ae85-05404c1f0cbd",
+            "id": "7d64021a-0c3f-461c-984f-db5a1dbff4e9",
             "x": 461.0109299702999,
             "y": 547.0916734026388,
             "width": 358.28761213881535,
             "height": 170.87968543774565,
             "type": "Text",
             "content": "#check out this node\nthis is some test text for the text visual system",
+            "color": "#b4d4ff",
             "targetId": null,
             "targetLocation": {
                 "x": 0,
@@ -2421,13 +2424,14 @@
             }
         },
         {
-            "id": "8dee4401-16a8-4eba-9de6-03e4d61a8467",
+            "id": "9e3af3f9-8547-4f53-ad0c-2cd7f7477a36",
             "x": 1566.3341552842314,
             "y": 82.30911576180519,
             "width": 358.28761213881535,
             "height": 170.87968543774565,
             "type": "Text",
             "content": "#check out this node\nthis is some test text for the text visual system",
+            "color": "#b4d4ff",
             "targetId": "d526d9bf-5f25-4075-b082-eb480e6792bf",
             "targetLocation": null
         }
