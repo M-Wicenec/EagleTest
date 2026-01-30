@@ -1011,8 +1011,8 @@
             "name": "GroupBy",
             "description": "A GroupBy template drop",
             "comment": "",
-            "x": 1176.6098364363693,
-            "y": 318.6374683885897,
+            "x": 1072.8134978815824,
+            "y": 209.07466658077743,
             "repositoryUrl": "https://github.com/ICRAR/daliuge",
             "commitHash": "44edda3",
             "paletteDownloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE_test_repo/master/daliuge/daliuge-master-template.palette",
@@ -1422,12 +1422,12 @@
             ],
             "inputApplicationName": "GenericNpyScatterApp",
             "inputApplicationType": "PythonApp",
-            "inputApplicationId": "d34a414a-3ae6-49c1-8b36-8c8f83b628ea",
+            "inputApplicationId": "641aa0bf-b002-4cef-b9f6-c06ae38b6c12",
             "inputApplicationDescription": "An APP that splits about any axis on any npy format data drop into as many part./run s as the app has outputs, provided that the initially converted numpy array has enough elements. The return will be a numpy array of arrays, where the first axis is of length len(outputs). The modulo remainder of the length of the original array and the number of outputs will be distributed across the first len(outputs)-1 elements of the resulting array.",
             "inputApplicationComment": "",
             "outputApplicationName": "GenericNpyGatherApp",
             "outputApplicationType": "PythonApp",
-            "outputApplicationId": "28550e86-f816-42fe-bdbe-b49308f8f2a1",
+            "outputApplicationId": "17690e0b-ab8d-4582-a9f7-c1a7a38512bd",
             "outputApplicationDescription": "A BarrierAppDrop that combines one or more inputs using cumulative operations.",
             "outputApplicationComment": ""
         },
@@ -1562,8 +1562,8 @@
             "name": "Memory",
             "description": "In-memory storage of intermediate data products",
             "comment": "",
-            "x": 1059.0742676161394,
-            "y": 319.8281911541692,
+            "x": 955.2779290613532,
+            "y": 210.26538934635727,
             "repositoryUrl": "https://github.com/ICRAR/daliuge",
             "commitHash": "44edda3",
             "paletteDownloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE_test_repo/master/daliuge/daliuge-master.palette",
@@ -1699,8 +1699,8 @@
             "name": "PythonApp",
             "description": "A placeholder APP to aid construction of new applications. This is mainly useful (and used) when starting a new workflow from scratch.",
             "comment": "",
-            "x": 1176.9825333176125,
-            "y": 326.44893994557845,
+            "x": 1073.1861947628265,
+            "y": 216.8861381377663,
             "repositoryUrl": "https://github.com/ICRAR/daliuge",
             "commitHash": "44edda3",
             "paletteDownloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE_test_repo/master/daliuge/daliuge-master-template.palette",
@@ -1821,8 +1821,8 @@
             "name": "Memory2",
             "description": "In-memory storage of intermediate data products",
             "comment": "",
-            "x": 1281.1262859949506,
-            "y": 328.2968257217502,
+            "x": 1177.3299474401613,
+            "y": 218.73402391393796,
             "repositoryUrl": "https://github.com/ICRAR/daliuge",
             "commitHash": "44edda3",
             "paletteDownloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE_test_repo/master/daliuge/daliuge-master.palette",
@@ -2339,22 +2339,22 @@
     ],
     "visualDataArray": [
         {
-            "id": "88ecabfc-bc86-42b6-ac28-27fedbe24f8e",
-            "x": 1717.0282678846168,
-            "y": 249.62401073009624,
+            "id": "1a1e4502-4715-4678-a6d4-302a60abb33b",
+            "x": 1472.8308904633957,
+            "y": -33.438129016408844,
             "width": 358.28761213881535,
             "height": 170.87968543774565,
             "type": "Text",
             "content": "#check out this node\nthis is some test text for the text visual system",
             "color": "#b4d4ff",
-            "targetId": null,
+            "targetId": "763f8c75-8838-49c4-a5c9-9c3785c1e4cd",
             "targetLocation": {
                 "x": 0,
                 "y": 0
             }
         },
         {
-            "id": "5e79ee85-a271-4bdc-9a59-16db314892c2",
+            "id": "8eb0e99b-c8e0-4849-bb90-3c1402ad25f2",
             "x": 469.428456780351,
             "y": 253.8423617756294,
             "width": 473.30717752216844,
@@ -2366,7 +2366,7 @@
             "targetLocation": null
         },
         {
-            "id": "ad6e730f-1e6e-4f98-abaa-d0d866ede6b3",
+            "id": "cc36598b-4002-46bc-8a7b-f3d70b412849",
             "x": 416.0679297979002,
             "y": 541.6985133819505,
             "width": 358.28761213881535,
@@ -2381,9 +2381,9 @@
             }
         },
         {
-            "id": "e9f5aef3-aedc-43e8-8a3a-99dc1ad40731",
-            "x": 1228.6098734171674,
-            "y": -115.98197876437652,
+            "id": "11661d58-05f0-4b70-8ab0-cd0dc4b92f98",
+            "x": 1234.957111931808,
+            "y": -174.85533715810442,
             "width": 358.28761213881535,
             "height": 170.87968543774565,
             "type": "Text",
@@ -2393,15 +2393,15 @@
             "targetLocation": null
         },
         {
-            "id": "2026a769-132d-48c7-ac26-199d5703d3bf",
-            "x": 1542.6496978844825,
-            "y": 78.28831694194236,
+            "id": "28b7fb01-5778-4372-bd7f-fc02c0f36506",
+            "x": 1593.952233515853,
+            "y": 95.76043010142595,
             "width": 358.28761213881535,
             "height": 170.87968543774565,
             "type": "Text",
             "content": "#check out this edge!\nthis is some test text for the text visual system",
             "color": "#b4d4ff",
-            "targetId": null,
+            "targetId": "7cace6b1-a0c6-4a47-b0e6-d8e5eaabc8b6",
             "targetLocation": null
         }
     ]
