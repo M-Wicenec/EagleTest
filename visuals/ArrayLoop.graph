@@ -50,8 +50,8 @@
                     "repositoryName": "M-Wicenec/EagleTest",
                     "repositoryPath": "visuals",
                     "repositoryFileName": "ArrayLoop.graph",
-                    "commitHash": "9d236f358992d157536eb125da9251e8b15df409",
-                    "downloadUrl": "https://raw.githubusercontent.com/M-Wicenec/EagleTest/9d236f358992d157536eb125da9251e8b15df409/visuals/ArrayLoop.graph"
+                    "commitHash": "34acc7ac229aff9b7207a0c6a6a481fcb314baa4",
+                    "downloadUrl": "https://raw.githubusercontent.com/M-Wicenec/EagleTest/34acc7ac229aff9b7207a0c6a6a481fcb314baa4/visuals/ArrayLoop.graph"
                 },
                 "signature": "",
                 "lastModifiedName": "",
@@ -1052,7 +1052,7 @@
             "outputAppFields": [],
             "inputApplicationName": "GenericScatterApp",
             "inputApplicationType": "DALiuGEApp",
-            "inputApplicationId": "af8f69a1-378b-4efa-be53-458238961232",
+            "inputApplicationId": "2d6ea1ac-dd22-48d4-bf87-24f6c95e1f66",
             "inputApplicationDescription": "",
             "inputApplicationComment": "",
             "outputApplicationName": "",
@@ -1236,7 +1236,7 @@
     ],
     "visualDataArray": [
         {
-            "id": "f806e2f6-ea02-47da-8c11-b7d9c114832b",
+            "id": "a53c9308-f6ed-42bf-835b-007fa15c0ab3",
             "x": 601.2410180551766,
             "y": -46.70270660010519,
             "width": 134.4363886192079,
@@ -1248,11 +1248,11 @@
             "targetLocation": null
         },
         {
-            "id": "bfd20d82-4772-43b6-bce3-26d9df15bbba",
-            "x": 821.179175559459,
+            "id": "2f258944-b19d-48e6-9077-7a29bad616c2",
+            "x": 824.1838014940449,
             "y": -155.20784740946326,
-            "width": 174.90177820926743,
-            "height": 102.59393523013209,
+            "width": 180.91103007843884,
+            "height": 99.58930929554639,
             "type": "Text",
             "content": "A construct that splits inputs into multiple parallel processing instances",
             "color": "#b4d4ff",
@@ -1260,7 +1260,7 @@
             "targetLocation": null
         },
         {
-            "id": "7d062fe7-01bf-4358-a8c4-409082021f45",
+            "id": "6331d067-9b02-4b54-b5b7-bb92ee6ed178",
             "x": 1079.6937082231868,
             "y": -304.26251915010494,
             "width": 201.87870460264082,
@@ -1272,7 +1272,7 @@
             "targetLocation": null
         },
         {
-            "id": "ed00a6d5-9e0b-4247-a167-31f0f3df799e",
+            "id": "5f721c33-9c16-4480-9955-f5bcc72e9125",
             "x": 1421.9762087468205,
             "y": -305.8535742523242,
             "width": 209.56443861784743,
@@ -1284,11 +1284,11 @@
             "targetLocation": null
         },
         {
-            "id": "3dcc1336-ad87-41c3-ba94-b809130b6f6c",
-            "x": 1654.3011159756875,
+            "id": "ea91a70a-2e03-4843-a59f-03a6516f314d",
+            "x": 1658.3072838884686,
             "y": -118.26419777192436,
-            "width": 228.99226626739633,
-            "height": 97.86507388466498,
+            "width": 237.0046020929582,
+            "height": 95.86198992827451,
             "type": "Text",
             "content": "The output of the Graph is saved to a standard file on a filesystem mounted to the deployment machine",
             "color": "#b4d4ff",
