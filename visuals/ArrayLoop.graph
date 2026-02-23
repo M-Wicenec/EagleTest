@@ -8,7 +8,7 @@
         "repoBranch": "main",
         "repo": "M-Wicenec/EagleTest",
         "generatorVersion": "v6.9.1 (dev)",
-        "generatorCommitHash": "9de08550",
+        "generatorCommitHash": "b3c54ece",
         "generatorName": "EAGLE",
         "schemaVersion": "OJS",
         "readonly": true,
@@ -50,8 +50,8 @@
                     "repositoryName": "M-Wicenec/EagleTest",
                     "repositoryPath": "visuals",
                     "repositoryFileName": "ArrayLoop.graph",
-                    "commitHash": "34acc7ac229aff9b7207a0c6a6a481fcb314baa4",
-                    "downloadUrl": "https://raw.githubusercontent.com/M-Wicenec/EagleTest/34acc7ac229aff9b7207a0c6a6a481fcb314baa4/visuals/ArrayLoop.graph"
+                    "commitHash": "7c50ba61b849b9509b17fea4c6c1bf6c4abf0607",
+                    "downloadUrl": "https://raw.githubusercontent.com/M-Wicenec/EagleTest/7c50ba61b849b9509b17fea4c6c1bf6c4abf0607/visuals/ArrayLoop.graph"
                 },
                 "signature": "",
                 "lastModifiedName": "",
@@ -1052,7 +1052,7 @@
             "outputAppFields": [],
             "inputApplicationName": "GenericScatterApp",
             "inputApplicationType": "DALiuGEApp",
-            "inputApplicationId": "2d6ea1ac-dd22-48d4-bf87-24f6c95e1f66",
+            "inputApplicationId": "c7570804-b7c9-419c-9ccc-c1949f5f1997",
             "inputApplicationDescription": "",
             "inputApplicationComment": "",
             "outputApplicationName": "",
@@ -1236,7 +1236,7 @@
     ],
     "visualDataArray": [
         {
-            "id": "d865c4a7-bc27-4864-a4e6-478667b4e395",
+            "id": "a2e82d5d-74f2-475a-9096-36940e6782a6",
             "x": 601.2410180551766,
             "y": -46.70270660010519,
             "width": 134.4363886192079,
@@ -1248,9 +1248,9 @@
             "targetLocation": null
         },
         {
-            "id": "98235deb-c766-47ab-b673-4acb7ae4284a",
-            "x": 824.1838014940449,
-            "y": -155.20784740946326,
+            "id": "ab27e0aa-0e5b-469b-987c-b80092014e9c",
+            "x": 803.552375101999,
+            "y": -167.58670324469068,
             "width": 180.91103007843884,
             "height": 99.58930929554639,
             "type": "Text",
@@ -1260,9 +1260,9 @@
             "targetLocation": null
         },
         {
-            "id": "c5d182de-a107-43e2-90ba-02bb21bb5df4",
-            "x": 1079.6937082231868,
-            "y": -304.26251915010494,
+            "id": "f9006e15-679e-4499-847f-60e065c29dfb",
+            "x": 1038.4308554390961,
+            "y": -367.5322267523779,
             "width": 201.87870460264082,
             "height": 98.96242590794716,
             "type": "Text",
@@ -1272,9 +1272,9 @@
             "targetLocation": null
         },
         {
-            "id": "cdffe804-0ca7-4015-853e-4ad56779ded5",
-            "x": 1421.9762087468205,
-            "y": -305.8535742523242,
+            "id": "9890da6d-5693-424b-897c-1b009deb940d",
+            "x": 1457.7373478263657,
+            "y": -371.8741387068697,
             "width": 209.56443861784743,
             "height": 103.20238917300259,
             "type": "Text",
@@ -1284,15 +1284,27 @@
             "targetLocation": null
         },
         {
-            "id": "272ecc5a-1267-4f15-815d-99dbe0f8597a",
-            "x": 1658.3072838884686,
-            "y": -118.26419777192436,
+            "id": "88d81d0e-2fbd-4ca8-a5cf-85ef9ba94e9e",
+            "x": 1683.0649955589229,
+            "y": -133.39391045942443,
             "width": 237.0046020929582,
             "height": 95.86198992827451,
             "type": "Text",
             "content": "The output of the Graph is saved to a standard file on a filesystem mounted to the deployment machine",
             "color": "#b4d4ff",
             "targetId": "5260489f-d90b-4a22-97f3-055ba1bf2c30",
+            "targetLocation": null
+        },
+        {
+            "id": "4efec735-64e8-449e-9950-7dadc57a0cdc",
+            "x": 1231.1812659540908,
+            "y": 14.150912484033668,
+            "width": 593.7788049829566,
+            "height": 615.7856598011377,
+            "type": "Group",
+            "content": "",
+            "color": "#b4d4ff",
+            "targetId": null,
             "targetLocation": null
         }
     ]
