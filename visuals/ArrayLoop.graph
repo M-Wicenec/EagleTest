@@ -50,8 +50,8 @@
                     "repositoryName": "M-Wicenec/EagleTest",
                     "repositoryPath": "visuals",
                     "repositoryFileName": "ArrayLoop.graph",
-                    "commitHash": "7c50ba61b849b9509b17fea4c6c1bf6c4abf0607",
-                    "downloadUrl": "https://raw.githubusercontent.com/M-Wicenec/EagleTest/7c50ba61b849b9509b17fea4c6c1bf6c4abf0607/visuals/ArrayLoop.graph"
+                    "commitHash": "d1778a329a029870295410661721f76f28badcb1",
+                    "downloadUrl": "https://raw.githubusercontent.com/M-Wicenec/EagleTest/d1778a329a029870295410661721f76f28badcb1/visuals/ArrayLoop.graph"
                 },
                 "signature": "",
                 "lastModifiedName": "",
@@ -1052,7 +1052,7 @@
             "outputAppFields": [],
             "inputApplicationName": "GenericScatterApp",
             "inputApplicationType": "DALiuGEApp",
-            "inputApplicationId": "c7570804-b7c9-419c-9ccc-c1949f5f1997",
+            "inputApplicationId": "56eb97f2-ed46-47c0-bff6-b41daf4ef8d7",
             "inputApplicationDescription": "",
             "inputApplicationComment": "",
             "outputApplicationName": "",
@@ -1236,7 +1236,7 @@
     ],
     "visualDataArray": [
         {
-            "id": "a2e82d5d-74f2-475a-9096-36940e6782a6",
+            "id": "e0be3a1f-ece9-4bfb-99cb-5885a4fe0f8a",
             "x": 601.2410180551766,
             "y": -46.70270660010519,
             "width": 134.4363886192079,
@@ -1248,7 +1248,7 @@
             "targetLocation": null
         },
         {
-            "id": "ab27e0aa-0e5b-469b-987c-b80092014e9c",
+            "id": "9beece7f-5213-4b2c-9ca3-a421ca82c04e",
             "x": 803.552375101999,
             "y": -167.58670324469068,
             "width": 180.91103007843884,
@@ -1260,7 +1260,7 @@
             "targetLocation": null
         },
         {
-            "id": "f9006e15-679e-4499-847f-60e065c29dfb",
+            "id": "7718b958-b664-470b-8f69-b2e4d5159f3f",
             "x": 1038.4308554390961,
             "y": -367.5322267523779,
             "width": 201.87870460264082,
@@ -1272,7 +1272,7 @@
             "targetLocation": null
         },
         {
-            "id": "9890da6d-5693-424b-897c-1b009deb940d",
+            "id": "102d5a55-5499-42dd-8cef-0430cead0a4b",
             "x": 1457.7373478263657,
             "y": -371.8741387068697,
             "width": 209.56443861784743,
@@ -1284,7 +1284,7 @@
             "targetLocation": null
         },
         {
-            "id": "88d81d0e-2fbd-4ca8-a5cf-85ef9ba94e9e",
+            "id": "315f55c1-5e4a-495a-be24-cac1c78ddab9",
             "x": 1683.0649955589229,
             "y": -133.39391045942443,
             "width": 237.0046020929582,
@@ -1293,18 +1293,6 @@
             "content": "The output of the Graph is saved to a standard file on a filesystem mounted to the deployment machine",
             "color": "#b4d4ff",
             "targetId": "5260489f-d90b-4a22-97f3-055ba1bf2c30",
-            "targetLocation": null
-        },
-        {
-            "id": "4efec735-64e8-449e-9950-7dadc57a0cdc",
-            "x": 1231.1812659540908,
-            "y": 14.150912484033668,
-            "width": 593.7788049829566,
-            "height": 615.7856598011377,
-            "type": "Group",
-            "content": "",
-            "color": "#b4d4ff",
-            "targetId": null,
             "targetLocation": null
         }
     ]
