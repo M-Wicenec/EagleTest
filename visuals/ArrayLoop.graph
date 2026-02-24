@@ -50,8 +50,8 @@
                     "repositoryName": "M-Wicenec/EagleTest",
                     "repositoryPath": "visuals",
                     "repositoryFileName": "ArrayLoop.graph",
-                    "commitHash": "d1778a329a029870295410661721f76f28badcb1",
-                    "downloadUrl": "https://raw.githubusercontent.com/M-Wicenec/EagleTest/d1778a329a029870295410661721f76f28badcb1/visuals/ArrayLoop.graph"
+                    "commitHash": "b690770033e4a9492164ab6bc88428202f9ff780",
+                    "downloadUrl": "https://raw.githubusercontent.com/M-Wicenec/EagleTest/b690770033e4a9492164ab6bc88428202f9ff780/visuals/ArrayLoop.graph"
                 },
                 "signature": "",
                 "lastModifiedName": "",
@@ -1052,7 +1052,7 @@
             "outputAppFields": [],
             "inputApplicationName": "GenericScatterApp",
             "inputApplicationType": "DALiuGEApp",
-            "inputApplicationId": "56eb97f2-ed46-47c0-bff6-b41daf4ef8d7",
+            "inputApplicationId": "795071a0-cc7d-4491-b816-80386a1406d0",
             "inputApplicationDescription": "",
             "inputApplicationComment": "",
             "outputApplicationName": "",
@@ -1236,9 +1236,9 @@
     ],
     "visualDataArray": [
         {
-            "id": "e0be3a1f-ece9-4bfb-99cb-5885a4fe0f8a",
-            "x": 601.2410180551766,
-            "y": -46.70270660010519,
+            "id": "c8ce4c12-7046-40ba-abb1-592794a59231",
+            "x": 565.0826401476969,
+            "y": 21.231215529101046,
             "width": 134.4363886192079,
             "height": 101.55636113807925,
             "type": "Text",
@@ -1248,7 +1248,7 @@
             "targetLocation": null
         },
         {
-            "id": "9beece7f-5213-4b2c-9ca3-a421ca82c04e",
+            "id": "9910c2f3-77fd-4076-a9eb-dd5dc624c8cb",
             "x": 803.552375101999,
             "y": -167.58670324469068,
             "width": 180.91103007843884,
@@ -1260,7 +1260,7 @@
             "targetLocation": null
         },
         {
-            "id": "7718b958-b664-470b-8f69-b2e4d5159f3f",
+            "id": "5a5f5de4-2b39-4ac9-9dc1-ba213266474c",
             "x": 1038.4308554390961,
             "y": -367.5322267523779,
             "width": 201.87870460264082,
@@ -1272,7 +1272,7 @@
             "targetLocation": null
         },
         {
-            "id": "102d5a55-5499-42dd-8cef-0430cead0a4b",
+            "id": "7db3e950-5020-4f48-a5dd-53ed229d47c8",
             "x": 1457.7373478263657,
             "y": -371.8741387068697,
             "width": 209.56443861784743,
@@ -1284,7 +1284,7 @@
             "targetLocation": null
         },
         {
-            "id": "315f55c1-5e4a-495a-be24-cac1c78ddab9",
+            "id": "c724d1da-410d-4c09-9de6-bfa190a93ad9",
             "x": 1683.0649955589229,
             "y": -133.39391045942443,
             "width": 237.0046020929582,
